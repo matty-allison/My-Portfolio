@@ -11,7 +11,7 @@ body {
 
 /* Landing */
 #home {
-  /* height: 100vh; */
+  height: 100%;
 }
 
 .landingimg {
@@ -79,31 +79,38 @@ body {
   transition: ease-in 0.4s;
   transform: rotate(360deg);
 }
-
-.button {
-  color: grey;
-  text-decoration: none;
-  cursor: pointer;
-  justify-content: space-evenly;
+.languages {
   display: flex;
-  align-items: center;
-  border: 3px solid;
-  width: 225px;
-  margin-left: 20px;
-  margin-bottom: 30px;
-  border-radius: 10px;
+  gap: 100px;
 }
 
-.button:hover {
-  color: #1bcbf7;
-  transition: ease-in 0.4s;
-  box-shadow: 0px 5px 20px #1bcbf7;
+.languages i {
+  font-size: 80px;
 }
 
-.navbar {
-  display: flex;
-  gap: 30px;
-  margin-left: 15px;
+.fa-html5:hover{
+  transition: ease-in-out 0.4s;
+  color: rgb(199, 33, 33);
+  text-shadow: 0px 5px 20px rgb(199, 33, 33);
+}
+
+.fa-css3-alt:hover{
+  transition: ease-in-out 0.4s;
+  color: blue;
+  text-shadow: 0px 5px 20px blue;
+}
+
+.fa-js-square:hover{
+  transition: ease-in-out 0.4s;
+  color: yellow;
+  text-shadow: 0px 5px 20px yellow;
+}
+
+.fa-python:hover{
+  transition: ease-in-out 0.4s;
+  color: green;
+  text-shadow: 0px 5px 20px green;
+
 }
 
 @media (max-width: 500px), (max-height: 900px) {
@@ -126,9 +133,11 @@ body {
 /* About */
 #about {
   display: flex;
+  margin-left: 8%;
   margin-right: 8%;
   background-image: url(./Images/Background1.jpg);
   object-fit: contain;
+  padding: 65px;
   /* height: 100vh; */
 }
 
@@ -146,13 +155,12 @@ body {
 }
 
 .aboutwords {
-  font-size: 22px;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
   margin-top: 30px;
-  padding-right: 100px;
   color: black;
   font-weight: 700;
 }
@@ -177,12 +185,14 @@ body {
 /* Experience */
 #experience {
   display: grid;
+  margin-left: 8%;
   margin-right: 8%;
   background-image: url(./Images/Background1.jpg);
   color: black;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
-  /* height: 100vh; */
+  padding: 30px;
+  height: 100%;
 }
 
 #experience h4 {
@@ -213,6 +223,20 @@ body {
   box-sizing: border-box;
   margin: 100px 0;
   justify-content: space-evenly;
+  border: solid 2px black;
+  border-radius: 25px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2), 0px 5px 20px rgba(0, 0, 0, 0.2),
+    0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.history-box:hover {
+  transition: ease-in 0.4s;
+  color: #1bcbf7;
+  text-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2), 0px 5px 20px #1bcbf7;
+  background-color: black;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2), 0px 5px 20px rgba(0, 0, 0, 0.2),
+    0px 5px 20px rgba(0, 0, 0, 0.2), 0px 5px 20px rgba(0, 0, 0, 0.2),
+    0px 5px 20px rgba(0, 0, 0, 0.2), 0px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .item1 {
@@ -262,10 +286,11 @@ body {
   color: black;
   padding: 12px 30px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 20px;
   gap: 10px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2), 0px 5px 20px rgba(0, 0, 0, 0.2),
     0px 5px 20px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
 }
 
 .downloadbtn:hover {
@@ -276,16 +301,17 @@ body {
 /* Skills and education */
 #Skills-education {
   display: grid;
-  margin-left: 3px;
+  margin-left: 8%;
   margin-right: 8%;
   background-image: url(./Images/Background1.jpg);
   color: black;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 30px;
   gap: 30px;
   /* height: 100vh; */
 }
@@ -360,12 +386,14 @@ body {
 /* Project Cards */
 #My-Projects {
   display: grid;
+  margin-left: 8%;
   margin-right: 8%;
   background-image: url(./Images/Background1.jpg);
   color: black;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   flex-wrap: wrap;
+  padding: 30px;
   /* height: 100vh; */
 }
 
@@ -379,7 +407,6 @@ body {
 
 .card {
   width: 35%;
-  margin: 1%;
   min-width: 300px;
   display: flex;
   flex-direction: column;
@@ -443,10 +470,11 @@ body {
 /* Testimonial */
 #testimonial {
   display: flex;
+  margin-left: 8%;
   margin-right: 8%;
   background-image: url(./Images/Background1.jpg);
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   align-items: center;
   justify-content: center;
@@ -508,13 +536,13 @@ body {
 /* Contact me */
 #contactme {
   display: grid;
+  margin-left: 8%;
   margin-right: 8%;
   background-image: url(./Images/Background1.jpg);
   color: black;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
-  padding-left: 380px;
-  padding-right: 380px;
+  padding: 30px;
   /* height: 100vh; */
   justify-content: center;
 }
@@ -526,13 +554,13 @@ body {
 }
 
 .contactwords h2 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .info {
   display: flex;
   flex-direction: row;
-  gap: 150px;
+  gap: 140px;
 }
 
 .info-align {
@@ -543,7 +571,7 @@ body {
 }
 
 .info-align i {
-  font-size: 30px;
+  font-size: 22px;
 }
 
 .info h3 {
@@ -602,36 +630,7 @@ body {
   justify-content: center;
 }
 
-/* Footer */
-#footer {
-  height: 30vh;
-  display: grid;
-  background-image: url(./Images/Footerend.jpg);
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.name2 {
-  font-size: 50px;
-  color: #1bcbf7;
-  text-shadow: 0px 5px 20px #1bcbf7;
-  margin-bottom: 50px;
-}
-
-.icons2 {
-  color: #1bcbf7;
-  text-decoration: none;
-  text-shadow: 0px 5px 20px #1bcbf7;
-}
-
-.icon2 {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  font-size: 22px;
+/* navbuttons */
+#fp-nav ul li a span {
+  background: #1bcbf7;
 }
