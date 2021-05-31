@@ -70,40 +70,41 @@
       <!-- About -->
       <div class="section">
         <section id="about">
-          <img src="./Images/Aboutimg.jpg" alt="Image of Matthew Allison" />
-          <div class="aboutwords">
-            <h2>About</h2>
-            <h3>Bio</h3>
-            <p>
-              I am a kind and understanding person. I have these traits because
-              of the care and support from family and friends that I have
-              surrounded myself with over my short but eventful life so far. I
-              am a hard worker and because of the type of person I am, I have
-              worked in a few places throughout my life. For example as a
-              children's church leader where we taught younger age groups about
-              God and their religion.
-            </p>
-            <h3>When my passion for coding start</h3>
-            <p>
-              My passion for the tech industry started when my father used to
-              explain to me how he built a computer from scratch and how he
-              wanted to learn how to speak the language of a computer. I thought
-              he was crazy at that age but after a few years and being a gamer I
-              wanted to switch to pc so I decided to do some research and the
-              things I discovered blew me away. I was going to attend The
-              animation school this year but because of the lack of funds, I was
-              directed to this school and decided to give it a try. Let us just
-              say I am loving every minute so far from the friends I've made, to
-              the amazing teachers/staff. I know that this school will be able
-              to help me and my future.
-            </p>
-            <a
-              class="downloadbtn"
-              href="./Images/Matthew Morne Allison CV.docx"
-              download
-            >
-              <i class="fa fa-download"></i> My CV
-            </a>
+          <h2>About</h2>
+          <div class="contentabout">
+            <img src="./Images/Aboutimg.jpg" alt="Image of Matthew Allison" />
+            <div class="aboutwords">
+              <h3>Bio</h3>
+              <p>
+                I am a kind and understanding person. I have these traits
+                because of the care and support from family and friends that I
+                have surrounded myself with over my short but eventful life so
+                far. I am a hard worker and because of the type of person I am,
+                I have worked in a few places throughout my life. For example as
+                a children's church leader where we taught younger age groups
+                about God and their religion.
+              </p>
+              <h3>When my passion for coding start</h3>
+              <p>
+                My passion for the tech industry started when my father used to
+                explain to me how he built a computer from scratch and how he
+                wanted to learn speak "the language of a computer". I thought he
+                was crazy at that age but after a few years and being a gamer I
+                wanted to switch to pc so I decided to do some research and the
+                things I discovered blew me away. I was going to attend The
+                animation school this year but because of the lack of funds, I
+                was directed to this school Life Choices Academy. Now I am still
+                building onto my skills and hope that I can achieve my dreams
+                one day.
+              </p>
+              <a
+                class="downloadbtn"
+                href="./Images/Matthew Morne Allison CV.docx"
+                download
+              >
+                <i class="fa fa-download"></i> My CV
+              </a>
+            </div>
           </div>
         </section>
       </div>
@@ -201,10 +202,10 @@
             <p>These are some of the Projects that I have created so far.</p>
           </div>
           <div class="cards-container">
-            <div class="card">
-              <img src="./Images/CONTACT FORM.png" alt="" class="card-img" />
+            <div id="img1" class="card">
               <div class="card-details">
                 <h2 class="card-heading">Contact Form</h2>
+                <p>a easy to style contact form with multiple uses.</p>
                 <h3 class="card-title">Html/Css</h3>
                 <div class="buttons">
                   <a
@@ -222,10 +223,13 @@
                 </div>
               </div>
             </div>
-            <div class="card">
-              <img src="./Images/Timeline.png" alt="" class="card-img" />
+            <div id="img2" class="card">
               <div class="card-details">
                 <h2 class="card-heading">Timeline</h2>
+                <p>
+                  to display your work history or your life history this
+                  timeline can be styled either way.
+                </p>
                 <h3 class="card-title">Html/Css</h3>
                 <div class="buttons">
                   <a
@@ -243,10 +247,10 @@
                 </div>
               </div>
             </div>
-            <div class="card">
-              <img src="./Images/Testimonial.png" alt="" class="card-img" />
+            <div id="img3" class="card">
               <div class="card-details">
                 <h2 class="card-heading">Testimonial</h2>
+                <p>a comment or testimonial section for anything you desire.</p>
                 <h3 class="card-title">Html/Css</h3>
                 <div class="buttons">
                   <a
@@ -264,10 +268,13 @@
                 </div>
               </div>
             </div>
-            <div class="card">
-              <img src="./Images/Sneaker store.png" alt="" class="card-img" />
+            <div id="img4" class="card">
               <div class="card-details">
                 <h2 class="card-heading">Sneaker Store</h2>
+                <p>
+                  a small sneaker project myself and two other co-workers
+                  completed at Lifechoices academy.
+                </p>
                 <h3 class="card-title">Html/Css</h3>
                 <div class="buttons">
                   <a
@@ -460,6 +467,10 @@
           </div>
         </section>
       </div>
+      <!-- Footer -->
+      <div class="section">
+        <section id="footer"></section>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
@@ -497,11 +508,12 @@
         navigationTooltips: [
           "Home",
           "About",
-          "Experience",
+          "Experiences",
           "Skills",
           "Projects",
-          "Testimonials",
+          "Testimonial",
           "Contact",
+          "Footer",
         ],
       });
     </script>
