@@ -17,53 +17,57 @@
     <link
       rel="shortcut icon"
       type="image/png"
-      href="./Images/icons8-briefcase-64.png"
+      href="./Images/icons8-briefcase-64-min.png"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.css"
-    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="icons">
-      <a href="https://github.com/matty-allison" target="blank"
-        ><i class="fab fa-github"></i
-      ></a>
-      <a
-        href="https://www.linkedin.com/in/matthew-morne-allison-97254a1b2/"
-        target="blank"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-      <a
-        href="https://app.netlify.com/teams/matty-allison/overview"
-        target="blank"
-        ><i class="fas fa-globe"></i
-      ></a>
+    <!-- Topbar -->
+    <div id="topbar">
+      <nav class="nabvar">
+        <ul class="navlinks">
+          <a class="navbutton" href="#home">Home</a></li>
+          <a class="navbutton" href="#about">About</a></li>
+          <a class="navbutton" href="#experience">Experience</a></li>
+          <a class="navbutton" href="#Skills-education">Skills</a></li>
+          <a class="navbutton" href="#My-Projects">Projects</a></li>
+          <a class="navbutton" href="#testimonial">Testimonial</a></li>
+          <a class="navbutton" href="#contactme">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <a href="https://github.com/matty-allison" target="blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/matthew-morne-allison-97254a1b2/"
+          target="blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a
+          href="https://app.netlify.com/teams/matty-allison/overview"
+          target="blank"
+          ><i class="fas fa-globe"></i
+        ></a>
+      </div>
     </div>
     <div id="fullpage">
       <!-- Home/Landing -->
       <div class="section">
         <section id="home">
-          <h1 class="name">Matthew Allison</h1>
           <div class="landing">
             <img
               class="landingimg"
-              src="./Images/LAndingimg.jpg"
+              src="./Images/LAndingimg-min.jpg"
               alt="Picture of Matthew Allison"
             />
+            <h1 class="name">Matthew Allison</h1>
             <p><span>Aspiring</span> Web-Developer</p>
-            <div class="languages">
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-css3-alt"></i>
-              <i class="fab fa-js-square"></i>
-              <i class="fab fa-python"></i>
-            </div>
           </div>
         </section>
       </div>
@@ -72,8 +76,11 @@
         <section id="about">
           <h2>About</h2>
           <div class="contentabout">
-            <img src="./Images/Aboutimg.jpg" alt="Image of Matthew Allison" />
-            <div class="aboutwords">
+            <img
+              src="./Images/Aboutimg-min.jpg"
+              alt="Image of Matthew Allison"
+              data-aos="fade-right"/>
+            <div class="aboutwords" data-aos="fade-left">
               <h3>Bio</h3>
               <p>
                 I am a kind and understanding person. I have these traits
@@ -114,18 +121,18 @@
           <h2>Work History</h2>
           <div class="work-history">
             <div class="timeline-line"></div>
-            <div class="history-box" class="item1">
+            <div class="history-box" class="item1" data-aos="flip-up">
               <h4>Funky Lemon</h4>
               <p>I am a part-time extra (actor) in adverts and movies.</p>
             </div>
-            <div class="history-box" class="item2">
+            <div class="history-box" class="item2" data-aos="flip-down">
               <h4>Hillsong Church Volunteer (kids program)</h4>
               <p>
                 I was a Volunteer at Hillsong Church every sunday for 2 years
                 working with children and teaching them about the bible.
               </p>
             </div>
-            <div class="history-box" class="item3">
+            <div class="history-box" class="item3" data-aos="flip-up">
               <h4>Gottlieb Construction</h4>
               <p>
                 I did casual work at Gottlieb Construction the company my
@@ -133,7 +140,7 @@
                 am needed.
               </p>
             </div>
-            <div class="history-box" class="item4">
+            <div class="history-box" class="item4" data-aos="flip-down">
               <h4>Pick n Pay Plumstead (Current Occupation)</h4>
               <p>
                 I work part-time (every weekend) for Pick n Pay, I have been
@@ -149,7 +156,7 @@
         <section id="Skills-education">
           <h2>Skills and Education</h2>
           <h3>Education</h3>
-          <div class="educationwords">
+          <div class="educationwords" data-aos="zoom-in-up">
             <div class="school">
               <h4>High School</h4>
               <p>
@@ -178,7 +185,7 @@
             </div>
           </div>
           <h3 class="skill">Skills</h3>
-          <div class="skills">
+          <div class="skills" data-aos="zoom-in-up">
             <div class="circle">
               <p>HTML</p>
             </div>
@@ -202,7 +209,7 @@
             <p>These are some of the Projects that I have created so far.</p>
           </div>
           <div class="cards-container">
-            <div id="img1" class="card">
+            <div id="img1" class="card" data-aos="zoom-out-right">
               <div class="card-details">
                 <h2 class="card-heading">Contact Form</h2>
                 <p>a easy to style contact form with multiple uses.</p>
@@ -223,7 +230,7 @@
                 </div>
               </div>
             </div>
-            <div id="img2" class="card">
+            <div id="img2" class="card" data-aos="zoom-out-left">
               <div class="card-details">
                 <h2 class="card-heading">Timeline</h2>
                 <p>
@@ -247,7 +254,7 @@
                 </div>
               </div>
             </div>
-            <div id="img3" class="card">
+            <div id="img3" class="card" data-aos="zoom-out-right">
               <div class="card-details">
                 <h2 class="card-heading">Testimonial</h2>
                 <p>a comment or testimonial section for anything you desire.</p>
@@ -268,7 +275,7 @@
                 </div>
               </div>
             </div>
-            <div id="img4" class="card">
+            <div id="img4" class="card" data-aos="zoom-out-left">
               <div class="card-details">
                 <h2 class="card-heading">Sneaker Store</h2>
                 <p>
@@ -299,14 +306,14 @@
       <div class="section">
         <section id="testimonial">
           <h2>Testimonial</h2>
-          <div class="wrapper">
+          <div class="wrapper" data-aos="fade-up">
             <div class="carousel owl-carousel">
               <div class="carouselcard card-1">
                 <p>Adam Africa</p>
                 <p>Co-worker</p>
                 <img
                   class="testimonialimg"
-                  src="./Images/Adam Africa (1).JPG"
+                  src="./Images/Adam Africa (1)-min.JPG"
                   alt="image of testimonial giver"
                 />
                 <q>
@@ -321,7 +328,7 @@
                 <p>Lecturer</p>
                 <img
                   class="testimonialimg"
-                  src="./Images/2021-team-jason-wandrag.jpg"
+                  src="./Images/2021-team-jason-wandrag-min.jpg"
                   alt="image of testimonial giver"
                 />
                 <q>
@@ -336,7 +343,7 @@
                 <p>Lecturer</p>
                 <img
                   class="testimonialimg"
-                  src="./Images/thapelo-tsotetsi.jpg"
+                  src="./Images/thapelo-tsotetsi-min.jpg"
                   alt="image of testimonial giver"
                 />
                 <q>
@@ -352,7 +359,7 @@
                 <p>Co-worker</p>
                 <img
                   class="testimonialimg"
-                  src="./Images/C8 Apr21 Gary Africa (3).JPG"
+                  src="./Images/C8 Apr21 Gary Africa (3)-min.JPG"
                   alt="image of testimonial giver"
                 />
                 <q>
@@ -367,7 +374,7 @@
                 <p>Co-worker</p>
                 <img
                   class="testimonialimg"
-                  src="./Images/C8 Apr21 Zipho Sithandathu (1).JPG"
+                  src="./Images/C8 Apr21 Zipho Sithandathu (1)-min.JPG"
                   alt="image of testimonial giver"
                 />
                 <q>
@@ -386,7 +393,7 @@
           <div class="headcontactword">
             <h2>Contact Me</h2>
           </div>
-          <div class="contactsection">
+          <div class="contactsection" data-aos="zoom-in-up">
             <div class="contactwords">
               <div class="info">
                 <div class="info-align">
@@ -469,9 +476,15 @@
       </div>
       <!-- Footer -->
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1500,
+      });
+    </script>
     <script>
       $(document).ready(function () {
         $(".carousel").owlCarousel({
@@ -497,20 +510,6 @@
             },
           },
         });
-      });
-    </script>
-    <script>
-      new fullpage("#fullpage", {
-        navigation: true,
-        navigationTooltips: [
-          "Home",
-          "About",
-          "Experiences",
-          "Skills",
-          "Projects",
-          "Testimonial",
-          "Contact",
-        ],
       });
     </script>
   </body>
