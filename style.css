@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 1%;
-  margin: 1%;
+  margin-top: 1%;
   z-index: 12;
   position: fixed;
   top: 0;
@@ -57,8 +57,11 @@ body {
     0px 5px 20px var(--shadow-color);
 }
 
-@media (max-width: 1400px){
-  
+@media (max-width: 1200px) {
+  .navbutton {
+    font-size: 100%;
+    padding: 2px 10px 2px 10px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -69,14 +72,14 @@ body {
 /* Landing */
 
 #particles-js {
-  background: black;
+  background: var(--secondary-color);
   height: 100vh;
   position: relative;
 }
 
 .landingimg {
-  width: 400px;
-  height: 400px;
+  width: 370px;
+  height: 370px;
   border-radius: 50%;
   object-fit: cover;
   display: flex;
@@ -123,6 +126,16 @@ body {
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color);
+}
+
+@media (max-width: 1200px) {
+  .landing {
+    font-size: 35px;
+  }
+
+  .name {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -185,14 +198,20 @@ body {
   transition: ease-in 0.4s;
 }
 
+@media (max-width: 1200px) {
+  .icons {
+    margin-right: 17%;
+  }
+}
+
 /* About */
 #about {
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 11%;
+  margin-right: 11%;
   object-fit: contain;
-  padding: 7%;
+  padding: 6%;
 }
 
 .contentabout {
@@ -217,7 +236,7 @@ body {
 }
 
 #about img {
-  width: 35%;
+  width: 40%;
   height: 75%;
   object-fit: cover;
   margin: 30px;
@@ -257,6 +276,13 @@ body {
     0px 5px 20px var(--shadow-color);
   transition: ease-in 0.5s;
 }
+
+@media (max-width: 1200px) {
+  #about img {
+    display: none;
+  }
+}
+
 /* Hobbies */
 
 #hobbies {
@@ -313,7 +339,6 @@ body {
 }
 
 .back_of_card {
-  position: absolute;
   width: 110%;
   height: 110%;
   padding: 15px;
@@ -325,6 +350,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .flip_card_container {
+    width: 210px;
+    height: 180px;
+  }
+
+  .back_of_card {
+    padding: 22px;
+    font-size: 13px;
+  }
 }
 
 /* Experience */
@@ -420,6 +457,17 @@ body {
   left: 50%;
 }
 
+@media (max-width: 1200px) {
+  #experience {
+    padding: 7%;
+    font-size: 90%;
+  }
+
+  .work-history {
+    padding: 10px 12%;
+  }
+}
+
 /* Skills and education */
 #Skills-education {
   display: grid;
@@ -433,7 +481,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 8%;
-  gap: 10px;
+  gap: 8px;
 }
 
 #Skills-education h2 {
@@ -510,11 +558,14 @@ body {
   transition: ease-in 0.5s;
 }
 
+@media (max-width: 1200px) {
+}
+
 /* Project Cards */
 #My-Projects {
   display: grid;
   color: var(--secondary-color);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   flex-wrap: wrap;
   padding: 5%;
@@ -526,7 +577,7 @@ body {
   align-items: center;
   color: var(--primary-color);
   flex-direction: column;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
   letter-spacing: 6px;
   text-shadow: 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
@@ -654,7 +705,7 @@ body {
 }
 
 .carousel .carouselcard {
-  line-height: 50px;
+  line-height: 30px;
   text-align: center;
   margin: 20px 0px;
   border-radius: 10px;
@@ -759,9 +810,9 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--primary-color);
-  height: 500px;
+  height: 430px;
   width: 500px;
-  gap: 50px;
+  gap: 30px;
   padding: 35px;
   box-shadow: 0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
