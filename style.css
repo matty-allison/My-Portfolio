@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 1%;
-  margin-top: 1%;
+  margin-top: 2%;
   z-index: 12;
   position: fixed;
   top: 0;
@@ -59,15 +59,26 @@ body {
 
 @media (max-width: 1200px) {
   .navbutton {
-    font-size: 100%;
-    padding: 2px 10px 2px 10px;
+    font-size: 110%;
+    padding: 3px 13px 3px 13px;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   .navbutton {
     font-size: 90%;
+    margin-right: 1%;
+    margin-left: 2%;
   }
+}
+  @media (max-width: 1000px){
+    #topbar{
+      padding: 2%;
+    }
+    .navbutton {
+      font-size: 90%;
+      margin-left: 1%;
+    }
 }
 /* Landing */
 
@@ -138,7 +149,7 @@ body {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   .landingimg {
     width: 270px;
     height: 270px;
@@ -201,6 +212,12 @@ body {
 @media (max-width: 1200px) {
   .icons {
     margin-right: 17%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .icons {
+    margin-right: 20%;
   }
 }
 
@@ -281,6 +298,18 @@ body {
   #about img {
     display: none;
   }
+
+  .aboutwords{
+    padding-right: 10px;
+  }
+}
+@media (max-width: 1100px) {
+  .aboutwords{
+    font-size: 100%;
+  }
+  .downloadbtn{
+    padding: 10px 18px;
+  }
 }
 
 /* Hobbies */
@@ -353,6 +382,11 @@ body {
 }
 
 @media (max-width: 1200px) {
+  #hobbies {
+    padding-left: 90px;
+    padding-right: 100px;
+  }
+
   .flip_card_container {
     width: 210px;
     height: 180px;
@@ -361,6 +395,22 @@ body {
   .back_of_card {
     padding: 22px;
     font-size: 13px;
+  }
+}
+@media (max-width: 1100px) {
+  #hobies{
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+  .flip_card_container{
+    width: 180px;
+    height: 160px;
+  }
+  .back_of_card{
+    padding: 26px;
+    font-size: 11px;
+    width: 90%;
+    height: 90%;
   }
 }
 
@@ -464,7 +514,14 @@ body {
   }
 
   .work-history {
-    padding: 10px 12%;
+    padding: 10px 10%;
+  }
+}
+
+@media (max-width: 1100px){
+  #experience{
+    padding: 9%;
+    font-size: 80%;
   }
 }
 
@@ -559,6 +616,32 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .school{
+    padding: 0px 40px;
+  }
+
+  .skills{
+    gap: 70px;
+  }
+
+  .circle {
+    font-size: 150%;
+    width: 140px;
+    height: 140px;
+  }
+}
+@media (max-width: 1100px){
+  .skills{
+    gap: 40px;
+  }
+  .circle{
+    font-size: 130%;
+    width: 120px;
+    height: 120px;
+  }
+  #Skills-education{
+    font-size: 16px;
+  }
 }
 
 /* Project Cards */
@@ -671,6 +754,18 @@ body {
     0px 5px 20px var(--shadow-color);
 }
 
+@media (max-width: 1200px) {
+  .card{
+    width: 34%;
+  }
+}
+@media (max-width: 411px){
+  #My-Projects{
+    font-size: 14px;
+    padding: 1%;
+  }
+}
+
 /* Testimonial */
 #testimonial {
   display: flex;
@@ -716,9 +811,30 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: cover;
   width: 392px;
   height: 250px;
   border-radius: 50%;
+}
+
+@media (max-width: 1200px) {
+  #testimonial{
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .carousel .carouselcard{
+    line-height: 20px;
+    padding: 20px;
+  }
+}
+@media (max-width: 411px){
+  #testimonial{
+    font-size: 80%;
+  }
+  .carousel .carouselcard{
+    padding: 20px;
+  }
 }
 
 /* Contact me */
@@ -851,4 +967,47 @@ body {
 .btn2space {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width:1200px) {
+  .contact-form-details{
+    width: 400px;
+  }
+
+  #contactme{
+    font-size: 80%;
+    padding-bottom: 10%;
+  }
+}
+@media (max-width: 1100px){
+  .contact-form-details{
+    width: 320px;
+    height: 380px;
+    padding: 10%;
+  }
+  .info-align{
+    gap: 30px;
+  }
+}
+
+@media (max-width: 411px) {
+  #contactme{
+    padding: 0px;
+    padding-bottom: 25%;
+    font-size: 70%;
+  }
+  .contactsection{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  .info-align{
+    flex-direction: row;
+  }
+  .icons2{
+    display: none;
+  }
+  .info {
+    padding: 20px;
+  }
 }
