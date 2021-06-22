@@ -26,7 +26,7 @@
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+<body>
     <!-- Topbar -->
     <div id="topbar">
       <nav class="nabvar">
@@ -41,9 +41,9 @@
         </ul>
       </nav>
     </div>
-    <div id="fullpage">
+  <div id="fullpage">
       <!-- Home/Landing -->
-      <div class="section" id="particles-js">
+      <div id="particles-js">
         <section id="home">
           <div class="landing">
             <img
@@ -54,9 +54,9 @@
             <h1 class="name">Matthew Allison</h1>
             <p><span>Aspiring</span> Web-Developer</p>
           </div>
+          <script src="particles.js-master/particles.js"></script>
+          <script src="/particles.js-master/demo/js/app.js"></script>
         </section>
-        <script src="particles.js-master/particles.js"></script>
-        <script src="/particles.js-master/demo/js/app.js"></script>
       </div>
        <!-- Footer -->
       <div id="footerbar">
@@ -84,7 +84,6 @@
         </div>
       </div>
       <!-- About -->
-      <div class="section">
         <section id="about">
           <h2 data-aos="fade-down">About</h2>
           <div class="contentabout">
@@ -126,7 +125,6 @@
             </div>
           </div>
         </section>
-      </div>
       <!-- Hobbies -->
       <h2 id="hobbie_head" data-aos="zoom-out-down">Hobbies</h2>
       <section id="hobbies" data-aos="zoom-out-up">
@@ -145,7 +143,7 @@
         <div class="flip_card_container">
           <div class="flipcard">
             <div class="front_of_card"><i class="fas fa-swimmer"></i></div>
-            <div class="back_of_card">I love swimming and I have been doing it throughout my life, I competited in competitions in primary school after that I did it for my enjoyment.</div>
+            <div class="back_of_card">I love swimming and I have been doing it throughout my life.</div>
           </div>
         </div>
         <div class="flip_card_container">
@@ -156,7 +154,6 @@
         </div>
       </section>
       <!-- My Experience -->
-      <div class="section">
         <section id="experience">
           <h2 data-aos="flip-up">Work History</h2>
           <div class="work-history">
@@ -188,9 +185,7 @@
             </div>
           </div>
         </section>
-      </div>
       <!-- skills and education -->
-      <div class="section">
         <section id="Skills-education">
           <h2 data-aos="zoom-in-down">Skills and Education</h2>
           <h3 data-aos="zoom-in-down">Education</h3>
@@ -237,16 +232,19 @@
             </div>
           </div>
         </section>
-      </div>
       <!-- My Projects -->
-      <div class="section">
         <section id="My-Projects">
-          <div class="projecthead" data-aos="zoom-out-down">
+          <div class="projecthead" data-aos="zoom-out-top">
             <h2>My Projects</h2>
-            <p>These are some of the Projects that I have created so far.</p>
+            <div class="fliter-container">
+              <button class="fliter-btn">All</button>
+              <button class="fliter-btn">Html/Css</button>
+              <button class="fliter-btn">Javascript</button>
+              <button class="fliter-btn">Python</button>
+            </div>
           </div>
           <div class="cards-container">
-            <div id="img1" class="card" data-aos="zoom-out-right">
+            <div id="img1" class="card" data-aos="zoom-out-top">
               <div class="card-details">
                 <h2 class="card-heading">Contact Form</h2>
                 <p>a easy to style contact form with multiple uses.</p>
@@ -267,7 +265,7 @@
                 </div>
               </div>
             </div>
-            <div id="img2" class="card" data-aos="zoom-out-left">
+            <div id="img2" class="card" data-aos="zoom-out-top">
               <div class="card-details">
                 <h2 class="card-heading">Timeline</h2>
                 <p>
@@ -291,7 +289,7 @@
                 </div>
               </div>
             </div>
-            <div id="img3" class="card" data-aos="zoom-out-right">
+            <div id="img3" class="card" data-aos="zoom-out-top">
               <div class="card-details">
                 <h2 class="card-heading">Testimonial</h2>
                 <p>a comment or testimonial section for anything you desire.</p>
@@ -312,7 +310,7 @@
                 </div>
               </div>
             </div>
-            <div id="img4" class="card" data-aos="zoom-out-left">
+            <div id="img4" class="card" data-aos="zoom-out-down">
               <div class="card-details">
                 <h2 class="card-heading">Sneaker Store</h2>
                 <p>
@@ -336,11 +334,51 @@
                 </div>
               </div>
             </div>
+            <div id="img5" class="card" data-aos="zoom-out-down">
+              <div class="card-details">
+                <h2 class="card-heading">Lotto game</h2>
+                <p>
+                  a small sneaker project myself and two other co-workers
+                  completed at Lifechoices academy.
+                </p>
+                <h3 class="card-title">Python</h3>
+                <div class="buttons">
+                  <a
+                    href="https://github.com/matty-allison/Lotto-game"
+                    target="blank"
+                    class="button2"
+                    >Github</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div id="img6" class="card" data-aos="zoom-out-down">
+              <div class="card-details">
+                <h2 class="card-heading">Calculator</h2>
+                <p>
+                  a small sneaker project myself and two other co-workers
+                  completed at Lifechoices academy.
+                </p>
+                <h3 class="card-title">Javascript</h3>
+                <div class="buttons">
+                  <a
+                    href="https://matthew-calculator.netlify.app"
+                    target="blank"
+                    class="button2"
+                    >Live</a
+                  >
+                  <a
+                    href="https://github.com/matty-allison/Calculator"
+                    target="blank"
+                    class="button2"
+                    >Github</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </section>
-      </div>
       <!-- Testimonial -->
-      <div class="section">
         <section id="testimonial">
           <h2 data-aos="fade-down">Testimonial</h2>
           <div class="wrapper" data-aos="fade-up">
@@ -423,9 +461,7 @@
             </div>
           </div>
         </section>
-      </div>
       <!-- Contact me -->
-      <div class="section">
         <section id="contactme">
           <div class="headcontactword">
             <h2 data-aos="zoom-in-down">Contact Me</h2>
@@ -510,14 +546,13 @@
             </form>
           </div>
         </section>
-      </div>
-    </div>
+  </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
       AOS.init({
-        offset: 100,
+        offset: 50,
         duration: 1500,
       });
     </script>
