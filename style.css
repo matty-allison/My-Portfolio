@@ -742,7 +742,7 @@ body {
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color);
 }
-
+/* 
 #img1 {
   background: linear-gradient(
       0deg,
@@ -774,13 +774,13 @@ body {
       rgba(24, 23, 24, 0.3)
     ),
     url(./Images/Sneaker\ store.png);
-}
+} */
 
 .card {
   width: 25%;
   height: 250px;
   display: flex;
-  @media (max-width: 950px) flex-direction: column;
+  flex-direction: column;
   overflow: hidden;
   padding: 1%;
   justify-content: space-evenly;
@@ -788,6 +788,11 @@ body {
   border-radius: 25px;
   box-shadow: 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color);
+  background: linear-gradient(
+    0deg,
+    rgba(24, 23, 24, 0.3),
+    rgba(24, 23, 24, 0.3)
+  );
 }
 
 .cards-container {
