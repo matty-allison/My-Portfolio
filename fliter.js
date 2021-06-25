@@ -91,3 +91,48 @@ function flitering(catergory) {
     card.style.display = "block";
   }
 }
+
+let hobbies = [
+  {
+   close: "X",
+   title: "Video Games",
+   hobbiesDescription: "This is probably my biggest hobbie I have, If it wasn't for video games I probably wouldn't have been interested in technology."
+  },
+  {
+    close: "X",
+    title: "Art",
+    hobbiesDescription: "Drawing started out as a hobbie for me but now my dream is to become and animator!"
+   },
+   {
+    close: "X",
+    title: "Swimming",
+    hobbiesDescription: "I love swimming and I have been doing it throughout my life."
+   },
+   {
+    close: "X",
+    title: "Hiking",
+    hobbiesDescription: "As a family, myself, my brother, sister, mom and dad go on hikes for fresh air and amazing views"
+   }
+]
+
+function createHobbies(hobbie) {
+  let createHobbies = `<div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn">${hobbie.close}</div>
+      <h1>${hobbie.title}</h1>
+      <p>${hobbie.hobbiesDescription}</p>
+      </div>
+      </div>`;
+      return createHobbies
+}
+
+function displayHobbies() {
+  let hobbies = document.querySelector("#hobbies");
+  for (hobbie of thehobbies) {
+    let fun = createHobbies(hobbie);
+    hobbies.innerHTML += fun;
+  }
+}
+
+displayHobbies();
