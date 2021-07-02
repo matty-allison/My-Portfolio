@@ -34,6 +34,7 @@ let projects = [
     githubLink: "https://github.com/matty-allison/Sneaker-website",
   },
   {
+    projectImg: "",
     nameHead: "Lotto game",
     Description:
       "A fun Lotto game, log in and see if you can guess the numbers",
@@ -41,6 +42,7 @@ let projects = [
     githubLink: "https://github.com/matty-allison/Lotto-game",
   },
   {
+    projectImg: "",
     nameHead: "Calculator",
     Description:
       "A full functional Calculator made from javascript, Html amd Css visit it anytime.",
@@ -48,10 +50,19 @@ let projects = [
     liveLink: "https://matthew-calculator.netlify.app",
     githubLink: "https://github.com/matty-allison/Calculator",
   },
+  {
+    projectImg: "pokeball.png",
+    nameHead: "Pokedex",
+    Description:
+      "Looking for a Pokemon, well why don't you check for it here in the Pokemon index",
+    language: "Javascript",
+    liveLink: "https://pokedex-matthew.netlify.app/",
+    githubLink: "https://github.com/matty-allison/pokedex",
+  },
 ];
 
 function createProject(project) {
-  let createProject = `<div id="img2" class="card" language=${project.language} data-aos="zoom-out-top" style="background:linear-gradient(0deg, rgba(24, 23, 24, 0.3), rgba(24, 23, 24, 0.3)), url('./Images/${projects.projectImg}')"> 
+  let createProject = `<div id="img2" class="card" language=${project.language} data-aos="zoom-out-top" style="background-img: url('./Images/${projects.projectImg}')"> 
     <div class="card-details">
     <h2 class="card-heading">${project.nameHead}</h2>
     <p>${project.Description}</p>
@@ -94,29 +105,38 @@ function flitering(catergory) {
 
 let hobbies = [
   {
-   close: "X",
-   title: "Video Games",
-   hobbiesDescription: "This is probably my biggest hobbie I have, If it wasn't for video games I probably wouldn't have been interested in technology."
+    button: "fas fa-gamepad",
+    close: "X",
+    title: "Video Games",
+    hobbiesDescription:
+      "This is probably my biggest hobbie I have, If it wasn't for video games I probably wouldn't have been interested in technology.",
   },
   {
+    button: "fas fa-palette",
     close: "X",
     title: "Art",
-    hobbiesDescription: "Drawing started out as a hobbie for me but now my dream is to become and animator!"
-   },
-   {
+    hobbiesDescription:
+      "Drawing started out as a hobbie for me but now my dream is to become and animator!",
+  },
+  {
+    button: "fas fa-swimmer",
     close: "X",
     title: "Swimming",
-    hobbiesDescription: "I love swimming and I have been doing it throughout my life."
-   },
-   {
+    hobbiesDescription:
+      "I love swimming and I have been doing it throughout my life.",
+  },
+  {
+    button: "fas fa-hiking",
     close: "X",
     title: "Hiking",
-    hobbiesDescription: "As a family, myself, my brother, sister, mom and dad go on hikes for fresh air and amazing views"
-   }
-]
+    hobbiesDescription:
+      "As a family, myself, my brother, sister, mom and dad go on hikes for fresh air and amazing views",
+  },
+];
 
 function createHobbies(hobbie) {
-  let createHobbies = `<div class="popup" id="popup-1">
+  let createHobbies = `<div class="hobbiebtns"><button onclick="toggleHobbies()" class="hobbiebtn"><i class="${hobbie.button}"></i></button></div>
+  <div class="popup" id="popup-1">
     <div class="overlay"></div>
     <div class="content">
       <div class="close-btn">${hobbie.close}</div>
@@ -124,15 +144,20 @@ function createHobbies(hobbie) {
       <p>${hobbie.hobbiesDescription}</p>
       </div>
       </div>`;
-      return createHobbies
+  return createHobbies;
 }
 
 function displayHobbies() {
-  let hobbies = document.querySelector("#hobbies");
-  for (hobbie of thehobbies) {
+  let hobbiesContainer = document.querySelector("#hobbies");
+  for (hobbie of hobbies) {
     let fun = createHobbies(hobbie);
-    hobbies.innerHTML += fun;
+    hobbiesContainer.innerHTML += fun;
+    togglePopup();
   }
 }
 
 displayHobbies();
+
+function togglePopup() {
+  document.getElementById("popup-1").classList.toggle("active");
+}
