@@ -59,6 +59,15 @@ let projects = [
     liveLink: "https://pokedex-matthew.netlify.app/",
     githubLink: "https://github.com/matty-allison/pokedex",
   },
+  {
+    projectImg: "",
+    nameHead: "Fliter",
+    Description:
+      "A Javascript fliter and search bar for any website implementation.",
+    language: "Javascript",
+    liveLink: "https://modest-stonebraker-b120c3.netlify.app/",
+    githubLink: "https://github.com/matty-allison/DOM_manipulation/tree/main/dom%20manipultion",
+  },
 ];
 
 function createProject(project) {
@@ -135,7 +144,7 @@ let hobbies = [
 ];
 
 function createHobbies(hobbie) {
-  let createHobbies = `<div class="hobbiebtns"><button onclick="toggleHobbies()" class="hobbiebtn"><i class="${hobbie.button}"></i></button></div>
+  let createHobbies = `<button onclick="toggleHobbies()" class="hobbiebtn"><i class="${hobbie.button}"></i></button>
   <div class="popup" id="popup-1">
     <div class="overlay"></div>
     <div class="content">
