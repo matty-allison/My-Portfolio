@@ -114,29 +114,25 @@ function flitering(catergory) {
 
 let hobbies = [
   {
-    button: "fas fa-gamepad",
-    close: "X",
+    pic: "./Images/games.jpg",
     title: "Video Games",
     hobbiesDescription:
       "This is probably my biggest hobbie I have, If it wasn't for video games I probably wouldn't have been interested in technology.",
   },
   {
-    button: "fas fa-palette",
-    close: "X",
+    pic: "fas fa-palette",
     title: "Art",
     hobbiesDescription:
       "Drawing started out as a hobbie for me but now my dream is to become and animator!",
   },
   {
-    button: "fas fa-swimmer",
-    close: "X",
+    pic: "./Images/swimming.jpg",
     title: "Swimming",
     hobbiesDescription:
       "I love swimming and I have been doing it throughout my life.",
   },
   {
-    button: "fas fa-hiking",
-    close: "X",
+    pic: "./Images/hiking.jpg",
     title: "Hiking",
     hobbiesDescription:
       "As a family, myself, my brother, sister, mom and dad go on hikes for fresh air and amazing views",
@@ -144,15 +140,16 @@ let hobbies = [
 ];
 
 function createHobbies(hobbie) {
-  let createHobbies = `<button onclick="toggleHobbies()" class="hobbiebtn"><i class="${hobbie.button}"></i></button>
-  <div class="popup" id="popup-1">
-    <div class="overlay"></div>
-    <div class="content">
-      <div class="close-btn">${hobbie.close}</div>
-      <h1>${hobbie.title}</h1>
-      <p>${hobbie.hobbiesDescription}</p>
+  let createHobbies = `
+  <div class="hobbie-container">
+    <div class="cardpic">
+      <img src="${hobbie.pic}" alt="" class="imgBx">
+      <div class="content">
+        <h2>${hobbie.title}</h2>
+        <p>${hobbie.hobbiesDescription}</p>
       </div>
-      </div>`;
+    </div>
+  </div>`;
   return createHobbies;
 }
 
@@ -161,12 +158,8 @@ function displayHobbies() {
   for (hobbie of hobbies) {
     let fun = createHobbies(hobbie);
     hobbiesContainer.innerHTML += fun;
-    togglePopup();
   }
 }
 
 displayHobbies();
 
-function togglePopup() {
-  document.getElementById("popup-1").classList.toggle("active");
-}

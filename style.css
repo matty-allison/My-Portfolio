@@ -359,63 +359,69 @@ body {
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color);
 }
 
-.popup .overlay {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 1;
-  display: none;
+.hobbie-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.popup .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
+.hobbie-container .cardpic{
+  position: relative;
+  width: 250px;
+  height: 165px;
   background: var(--primary-color);
-  width: 95%;
-  max-width: 500px;
-  height: 250px;
-  z-index: 2;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+}
+.hobbie-container .cardpic:hover{
+  height: 320px;
+}
+
+.hobbie-container .cardpic .imgBx{
+  position: relative;
+  object-fit: cover;
+  width: 210px;
+  height: 210px;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0px 5px 20px var(--secondary-color);
+}
+
+.hobbie-container .cardpic .imgBx img{
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.hobbie-container .cardpic .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
   text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  color: var(--secondary-color);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
 }
 
-.popup .close-btn {
-  cursor: pointer;
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  width: 30px;
-  height: 30px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  font-size: 25px;
-  font-weight: 600;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 50%;
+.hobbie-container .cardpic:hover .content{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -30px;
+  transition-delay: 0.3s;
 }
 
-.popup.active .overlay {
-  display: block;
-}
-
-.popup.active .content {
-  transition: all 300ms ease-in-out;
-  transform: translate(-50%, -50%) scale(1);
-}
 #hobbies {
   display: flex;
   justify-content: center;
   padding: 10px;
   margin: 50px;
-  gap: 20px;
+  gap: 10px;
 }
 
 .hobbiebtns {
@@ -766,7 +772,7 @@ body {
 } */
 
 .card {
-  width: 25%;
+  width: 40%;
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -790,6 +796,7 @@ body {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  margin: 0px 200px;
 }
 
 .card-details {
