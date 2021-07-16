@@ -111,13 +111,6 @@ body {
   margin-bottom: 10px;
 }
 
-#home {
-  top: 0;
-  right: 0;
-  left: 0;
-  position: absolute;
-}
-
 .landing {
   display: flex;
   justify-content: center;
@@ -127,6 +120,10 @@ body {
   letter-spacing: 8px;
   font-size: 40px;
   gap: 20px;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
 }
 
 .landing span {
