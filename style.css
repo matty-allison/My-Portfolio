@@ -119,12 +119,11 @@ body {
 }
 
 .landing {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
-  padding: 10%;
-  place-items: center;
+  flex-direction: column;
+  min-height: 95vh;
   letter-spacing: 8px;
   font-size: 40px;
   gap: 20px;
@@ -283,8 +282,8 @@ body {
 }
 
 #about img {
-  width: 40%;
-  height: 75%;
+  width: 35%;
+  height: 55%;
   object-fit: cover;
   margin: 30px;
   margin-top: 5%;
@@ -292,11 +291,11 @@ body {
 }
 
 .aboutwords {
-  font-size: 115%;
+  font-size: 110%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 34px;
   margin-top: 30px;
   color: var(--primary-color);
   font-weight: 700;
@@ -321,7 +320,7 @@ body {
   box-shadow: 0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color);
-  transition: ease-in 0.5s;
+  transition: 0.5s ease-in-out;
 }
 
 @media (max-width: 1200px) {
@@ -346,7 +345,7 @@ body {
 
 #hobbie_head {
   display: flex;
-  padding-top: 8%;
+  padding-top: 6%;
   padding-right: 2%;
   padding-left: 2%;
   padding-bottom: 5%;
@@ -404,6 +403,7 @@ body {
   padding: 10px 15px;
   text-align: center;
   color: var(--secondary-color);
+  letter-spacing: 2px;
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease-in-out;
@@ -572,7 +572,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 8%;
-  gap: 8px;
+  gap: 5px;
 }
 
 #Skills-education h2 {
@@ -591,7 +591,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px 50px;
-  gap: 50px;
+  gap: 40px;
   width: 50%;
 }
 
@@ -603,7 +603,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px 50px;
-  gap: 15px;
+  gap: 10px;
   width: 50%;
 }
 

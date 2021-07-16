@@ -1,6 +1,6 @@
 let projects = [
   {
-    projectImg: "CONTACT FORM.png",
+    projectImg: "CONTACTFORM.png",
     nameHead: "Contact Form",
     Description: "a easy to style contact form with multiple uses.",
     language: "Html/Css",
@@ -25,7 +25,7 @@ let projects = [
     githubLink: "https://github.com/matty-allison/Testimonial",
   },
   {
-    projectImg: "Sneaker store.png",
+    projectImg: "Sneakerstore.png",
     nameHead: "Sneaker Store",
     Description:
       "a small sneaker project myself and two other co-workers completed at Lifechoices academy.",
@@ -34,15 +34,16 @@ let projects = [
     githubLink: "https://github.com/matty-allison/Sneaker-website",
   },
   {
-    projectImg: "",
+    projectImg: "lotto.png",
     nameHead: "Lotto game",
     Description:
       "A fun Lotto game, log in and see if you can guess the numbers",
     language: "Python",
+    liveLink: "",
     githubLink: "https://github.com/matty-allison/Lotto-game",
   },
   {
-    projectImg: "",
+    projectImg: "calculator].png",
     nameHead: "Calculator",
     Description:
       "A full functional Calculator made from javascript, Html amd Css visit it anytime.",
@@ -60,7 +61,7 @@ let projects = [
     githubLink: "https://github.com/matty-allison/pokedex",
   },
   {
-    projectImg: "",
+    projectImg: "FLITERpng",
     nameHead: "Fliter",
     Description:
       "A Javascript fliter and search bar for any website implementation.",
@@ -68,10 +69,19 @@ let projects = [
     liveLink: "https://modest-stonebraker-b120c3.netlify.app/",
     githubLink: "https://github.com/matty-allison/DOM_manipulation/tree/main/dom%20manipultion",
   },
+  {
+    projectImg: "databases.png",
+    nameHead: "Database project",
+    Description: "Python database project used for signing up, logging in and a few other features",
+    language: "Python",
+    liveLink: "https://replit.com/@mattyallison/Databases-EMOP#.replit",
+    githubLink: "https://github.com/matty-allison/Databases--EMOP", 
+  }
 ];
 
 function createProject(project) {
-  let createProject = `<div id="img2" class="card" language=${project.language} data-aos="zoom-out-top" style="background-img: url('./Images/${projects.projectImg}')"> 
+  let createProject = `<div class="card" language=${project.language} style="background: linear-gradient( 0deg, rgba(24, 23, 24, 0.3), rgba(24, 23, 24, 0.3)),
+  url(./Images/${project.projectImg});"> 
     <div class="card-details">
     <h2 class="card-heading">${project.nameHead}</h2>
     <p>${project.Description}</p>
@@ -120,7 +130,7 @@ let hobbies = [
       "This is probably my biggest hobbie I have, If it wasn't for video games I probably wouldn't have been interested in technology.",
   },
   {
-    pic: "fas fa-palette",
+    pic: "./Images/p1-min.jpeg",
     title: "Art",
     hobbiesDescription:
       "Drawing started out as a hobbie for me but now my dream is to become and animator!",
