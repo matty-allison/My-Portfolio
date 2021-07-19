@@ -33,6 +33,7 @@ body {
 .navlinks {
   display: flex;
   justify-content: center;
+  outline: none;
 }
 .navbutton {
   display: flex;
@@ -85,8 +86,20 @@ body {
     margin-left: 1%;
     padding: 5px 15px 5px 15px;
   }
+  #topbar {
+    padding: 2%;
+  }
 }
-
+@media (max-width: 950px) {
+  .navbutton {
+    font-size: 80%;
+    margin-left: 0%;
+    padding: 5px 15px 5px 15px;
+  }
+  #topbar {
+    padding: 2%;
+  }
+}
 @media (max-width: 850px) {
   .navbutton {
     font-size: 60%;
@@ -146,6 +159,12 @@ body {
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color);
 }
+@media (max-width: 1300px) {
+  .landingimg {
+    width: 340px;
+    height: 340px;
+  }
+}
 
 @media (max-width: 1250px) {
   .landing {
@@ -174,7 +193,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1.5%;
+  padding: 1.2%;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.6);
   right: 0;
@@ -318,19 +337,23 @@ body {
     0px 5px 20px var(--shadow-color);
   transition: 0.5s ease-in-out;
 }
-
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   #about img {
     display: none;
   }
+  #about {
+    padding: 5% 10%;
+  }
+}
 
+@media (max-width: 1300px) {
   .aboutwords {
     padding-right: 10px;
   }
 }
 @media (max-width: 1250px) {
   #about {
-    padding: 5% 10%;
+    padding: 8% 10%;
   }
   .aboutwords {
     font-size: 100%;
@@ -352,7 +375,7 @@ body {
   padding-top: 7%;
   padding-right: 2%;
   padding-left: 2%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   justify-content: center;
   font-size: 190%;
   letter-spacing: 6px;
@@ -428,6 +451,12 @@ body {
   gap: 10px;
   flex-wrap: wrap;
 }
+@media (max-width: 1400px) {
+  #hobbies {
+    margin: 50px 200px;
+    gap: 50px;
+  }
+}
 
 @media (max-width: 1300px) {
   #hobbies {
@@ -447,10 +476,10 @@ body {
     width: 180px;
     height: 155px;
   }
-  .hobbie-container .cardpic:hover{
+  .hobbie-container .cardpic:hover {
     height: 300px;
   }
-  .content{
+  .content {
     font-size: 90%;
   }
 }
@@ -657,6 +686,25 @@ body {
     0px 5px 20px var(--shadow-color);
   transition: ease-in 0.5s;
 }
+@media (max-width: 1400px) {
+  .skills {
+    gap: 60px;
+  }
+  .circle {
+    width: 140px;
+    height: 140px;
+  }
+  .school {
+    padding: 0px 0px;
+  }
+  .subjects {
+    width: 40%;
+    padding: 0px 30px;
+  }
+  #Skills-education {
+    padding: 8% 15%;
+  }
+}
 @media (max-width: 1300px) {
   .skills {
     gap: 40px;
@@ -683,8 +731,8 @@ body {
 
   .circle {
     font-size: 150%;
-    width: 140px;
-    height: 140px;
+    width: 135px;
+    height: 135px;
   }
 }
 @media (max-width: 1150px) {
@@ -701,10 +749,10 @@ body {
   }
 }
 @media (max-width: 1000px) {
-  .circle{
+  .circle {
     width: 100px;
     height: 100px;
-    border: 2px solid ;
+    border: 2px solid;
   }
 }
 
@@ -827,6 +875,11 @@ body {
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color);
 }
+@media (max-width: 1400px) {
+  #My-Projects {
+    padding: 6%;
+  }
+}
 @media (max-width: 1300px) {
   .card {
     width: 40%;
@@ -841,12 +894,20 @@ body {
   }
 }
 @media (max-width: 1000px) {
-  .fliter-btn{
+  .fliter-btn {
     font-size: 90%;
     padding: 8px 17px;
     margin: 0px 10px;
   }
-} 
+}
+@media (max-width: 950px) {
+  .button2 {
+    padding: 5px 15px;
+  }
+  .card {
+    width: 40%;
+  }
+}
 @media (max-width: 411px) {
   #My-Projects {
     font-size: 14px;
@@ -866,7 +927,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 6%;
+  padding-top: 5%;
 }
 
 #testimonial h2 {
@@ -874,7 +935,7 @@ body {
   display: flex;
   letter-spacing: 6px;
   justify-content: center;
-  margin: 30px;
+  margin: 10px;
   text-shadow: 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color);
@@ -891,7 +952,7 @@ body {
 }
 
 .carousel .carouselcard {
-  line-height: 40px;
+  line-height: 37px;
   text-align: center;
   margin: 20px 0px;
   border-radius: 10px;
@@ -907,15 +968,30 @@ body {
   height: 250px;
   border-radius: 50%;
 }
+@media (max-width: 1400px) {
+  #testimonial {
+    margin-right: 16%;
+    margin-left: 18%;
+    font-size: 110%;
+  }
+  .testimonialimg {
+    width: 200px;
+    height: 250px;
+  }
+  .carousel .carouselcard {
+    line-height: 30px;
+    margin-right: 20px;
+  }
+}
 @media (max-width: 1300px) {
   #testimonial {
     margin-right: 15%;
     margin-left: 15%;
-    font-size: 125%;
+    font-size: 100%;
   }
   .testimonialimg {
     width: 300px;
-    height: 300px;
+    height: 200px;
   }
   .carousel .carouselcard {
     line-height: 25px;
@@ -954,7 +1030,9 @@ body {
     width: 350px;
     height: 150px;
   }
-
+  #testimonial {
+    padding-top: 7%;
+  }
   .carousel .carouselcard {
     line-height: 20px;
     padding: 15px;
@@ -963,7 +1041,16 @@ body {
 
 @media (max-width: 950px) {
   .carousel .carouselcard {
-    padding: 10px;
+    line-height: 25px;
+    padding: 15px;
+    width: 190px;
+  }
+  .owl-carousel .owl-item img {
+    width: 100%;
+  }
+  #testimonial {
+    margin-right: 16%;
+    margin-left: 20%;
   }
 }
 
@@ -1106,6 +1193,15 @@ body {
 .btn2space {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 1400px) {
+  .contact-form-details {
+    width: 350px;
+  }
+  #contactme {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
 }
 @media (max-width: 1300px) {
   .contact-form-details {
