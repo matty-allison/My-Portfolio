@@ -102,7 +102,43 @@ body {
 }
 @media (max-width: 850px) {
   .navbutton {
+    font-size: 70%;
+    padding: 3px 10px 3px 10px;
+    margin-right: 2%;
+  }
+}
+@media (max-width: 800px) {
+  .navbutton {
     font-size: 60%;
+    margin: 1%;
+  }
+}
+@media (max-width: 750px) {
+  .navbutton {
+    font-size: 65%;
+    margin: 5px;
+  }
+}
+@media (max-width: 700px) {
+  .navbutton {
+    font-size: 65%;
+    font-weight: 800;
+    margin: 4px;
+    letter-spacing: 3px;
+  }
+}
+@media (max-width: 650px) {
+  .navbutton {
+    font-size: 70%;
+    margin: 4px;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 600px) {
+  .navbutton {
+    font-size: ;
+    margin: ;
+    letter-spacing: 1px;
   }
 }
 /* Landing */
@@ -186,6 +222,18 @@ body {
     font-size: 30px;
   }
 }
+@media (max-width: 750px) {
+  .landingimg {
+    width: 230px;
+    height: 230px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .landing {
+    font-size: 25px;
+  }
+}
 
 /* Footer */
 #footerbar {
@@ -264,7 +312,26 @@ body {
     margin-right: 26%;
   }
 }
-
+@media (max-width: 800px) {
+  .icons {
+    margin-right: 28%;
+  }
+}
+@media (max-width: 750px) {
+  .icons {
+    font-size: 120%;
+  }
+}
+@media (max-width: 700px) {
+  .icons {
+    margin-right: 30%;
+  }
+}
+@media (max-width: 650px) {
+  .icons {
+    margin-right: 33%;
+  }
+}
 /* About */
 #about {
   display: flex;
@@ -367,7 +434,25 @@ body {
     padding: 10px 18px;
   }
 }
-
+@media (max-width: 850px) {
+  #about {
+    padding: 8% 7%;
+  }
+}
+@media (max-width: 750px) {
+  #about {
+    padding: 10% 4%;
+  }
+}
+@media (max-width: 600px) {
+  .aboutwords {
+    font-size: 90%;
+  }
+  #about {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 /* Hobbies */
 
 #hobbie_head {
@@ -481,6 +566,59 @@ body {
   }
   .content {
     font-size: 90%;
+  }
+}
+@media (max-width: 850px) {
+  #hobbies {
+    margin: 50px 100px;
+    gap: 30px;
+  }
+}
+@media (max-width: 750px) {
+  #hobbies {
+    margin: 60px 50px;
+    gap: 10px;
+  }
+  #hobbie_head {
+    padding-top: 9%;
+  }
+}
+@media (max-width: 650px) {
+  #hobbies {
+    margin: 50px 50px;
+  }
+  .hobbie-container .cardpic {
+    width: 200px;
+    height: 135px;
+  }
+  .hobbie-container .cardpic .imgBx {
+    width: 160px;
+    height: 135px;
+  }
+  .hobbie-container .cardpic:hover {
+    height: 250px;
+  }
+  .content {
+    font-size: 70%;
+  }
+}
+@media (max-width: 600px) {
+  #hobbies {
+    margin: 50px 0px;
+  }
+  .hobbie-container .cardpic {
+    width: 180px;
+    height: 115px;
+  }
+  .hobbie-container .cardpic .imgBx {
+    width: 140px;
+    height: 115px;
+  }
+  .hobbie-container .cardpic:hover {
+    height: 200px;
+  }
+  .content {
+    font-size: 65%;
   }
 }
 
@@ -601,7 +739,29 @@ body {
     font-size: 80%;
   }
 }
-
+@media (max-width: 850px) {
+  .work-history {
+    padding: 8px 10%;
+  }
+  .history-box {
+    padding: 5px 20px;
+  }
+}
+@media (max-width: 750px) {
+  #experience {
+    padding: 11% 5%;
+  }
+}
+@media (max-width: 600px) {
+  #experience {
+    padding: 11% 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .work-history {
+    padding: 8px 3%;
+  }
+}
 /* Skills and education */
 #Skills-education {
   display: grid;
@@ -766,7 +926,40 @@ body {
     height: 110px;
   }
 }
-
+@media (max-width: 850px) {
+  #Skills-education {
+    padding: 5% 10%;
+  }
+}
+@media (max-width: 800px) {
+  .circle {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 750px) {
+  .school {
+    padding: 0px 20px;
+  }
+  #Skills-education {
+    padding: 10% 10%;
+  }
+}
+@media (max-width: 700px) {
+  .school {
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 650px) {
+  .school {
+    padding: 0px 0px;
+  }
+}
+@media (max-width: 600px) {
+  #Skills-education {
+    padding: 6% 6%;
+  }
+} 
 /* Project Cards */
 #My-Projects {
   display: grid;
@@ -908,6 +1101,25 @@ body {
     width: 40%;
   }
 }
+@media (max-width: 850px) {
+  .card {
+    width: 45%;
+  }
+}
+@media (max-width: 750px) {
+  .cards-container {
+    margin: 65px;
+  }
+  #My-Projects {
+    padding: 10% 6%;
+  }
+}
+@media (max-width: 650px) {
+  .card-details {
+    padding: 10px;
+    gap: 20px;
+  }
+}
 @media (max-width: 411px) {
   #My-Projects {
     font-size: 14px;
@@ -916,6 +1128,11 @@ body {
     padding-left: 2%;
     padding: 1%;
   }
+}
+@media (max-width: 600px) {
+  .cards-container {
+    margin: 30px;
+}
 }
 
 /* Testimonial */
@@ -1053,7 +1270,17 @@ body {
     margin-left: 20%;
   }
 }
-
+@media (max-width: 650px) {
+  #testimonial {
+    margin-right: 16%;
+    margin-left: 17%;
+  }
+}
+@media (max-width: 600px) {
+  .carousel .carouselcard{
+    padding: 0px;
+  }
+}
 @media (max-width: 411px) {
   #testimonial {
     font-size: 80%;
@@ -1249,7 +1476,63 @@ body {
     gap: 20px;
   }
 }
-
+@media (max-width: 750px) {
+  .info {
+    gap: 50px;
+  }
+}
+@media (max-width: 650px) {
+  .contactsection {
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .icons2 {
+    display: none;
+  }
+  #contactme {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 15%;
+    font-size: 70%;
+  }
+  .contact-form-details {
+    width: 290px;
+    margin-right: 70px;
+    gap: 10px;
+    height: 315px;
+  }
+  .info-align {
+    flex-direction: column;
+    margin: 0px 10px;
+  }
+  .btn2 {
+    height: 40px;
+    width: 150px;
+    margin-left: 10px;
+  }
+  .info-align i {
+    display: none;
+  }
+}
+@media (max-width) {
+  #contactme {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 15%;
+    font-size: 80%;
+  }
+}
 @media (max-width: 411px) {
   #contactme {
     padding: 0px;

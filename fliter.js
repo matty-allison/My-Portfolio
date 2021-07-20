@@ -134,7 +134,7 @@ let hobbies = [
     title: "Art",
     hobbiesDescription:
       "Drawing started out as a hobbie for me but now my dream is to become and animator!",
-  },
+  },      
   {
     pic: "./Images/swimming.jpg",
     title: "Swimming",
