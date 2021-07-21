@@ -11,7 +11,7 @@ let projects = [
     projectImg: "Timeline.png",
     nameHead: "Timeline",
     Description:
-      "to display your work history or your life history this timeline can be styled either way.",
+      "to display your work/life history this timeline can be styled either way.",
     language: "Html/Css",
     liveLink: "https://vigilant-roentgen-6b0c0e.netlify.app/",
     githubLink: "https://github.com/matty-allison/Timeline",
@@ -127,7 +127,7 @@ let hobbies = [
     pic: "./Images/games.jpg",
     title: "Video Games",
     hobbiesDescription:
-      "This is probably my biggest hobbie I have, If it wasn't for video games I probably wouldn't have been interested in technology.",
+      "This is probably my biggest hobbie I have. If it wasn't for video games I probably wouldn't have been interested in technology.",
   },
   {
     pic: "./Images/p1-min.jpeg",
@@ -145,7 +145,7 @@ let hobbies = [
     pic: "./Images/hiking.jpg",
     title: "Hiking",
     hobbiesDescription:
-      "As a family, myself, my brother, sister, mom and dad go on hikes for fresh air and amazing views",
+      "As a family, myself, my two siblings and my parents go on regular hikes. We love the fresh air and amazing views",
   },
 ];
 
