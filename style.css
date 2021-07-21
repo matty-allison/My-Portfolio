@@ -136,9 +136,18 @@ body {
 }
 @media (max-width: 600px) {
   .navbutton {
-    font-size: ;
-    margin: ;
     letter-spacing: 1px;
+  }
+}
+@media (max-width: 550px) {
+  .navbutton {
+    letter-spacing: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .navbutton {
+    margin: 3px;
+    font-size: 65%;
   }
 }
 /* Landing */
@@ -232,6 +241,18 @@ body {
   }
   .landing {
     font-size: 25px;
+  }
+}
+@media (max-width: 500px) {
+  .landing {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .landingimg {
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -330,6 +351,25 @@ body {
 @media (max-width: 650px) {
   .icons {
     margin-right: 33%;
+  }
+}
+@media (max-width: 600px) {
+  .icons {
+    margin-right: 34%;
+  }
+}
+@media (max-width: 550px) {
+  .icons {
+    margin-right: 38%;
+  }
+}
+@media (max-width: 500px) {
+  .icons {
+    margin-right: 39%;
+    font-size: 110%;
+  }
+  #footerbar h2 {
+    font-size: 130%;
   }
 }
 /* About */
@@ -451,6 +491,17 @@ body {
   #about {
     margin-left: 5%;
     margin-right: 5%;
+  }
+}
+@media (max-width: 550px) {
+  #about h2 {
+    font-size: 150%;
+  }
+}
+@media (max-width: 500px) {
+  .aboutwords {
+    font-size: 80%;
+    padding-right: 0px;
   }
 }
 /* Hobbies */
@@ -621,6 +672,30 @@ body {
     font-size: 65%;
   }
 }
+@media (max-width: 550px) {
+  #hobbie_head {
+    font-size: 150%;
+  }
+}
+@media (max-width: 500px) {
+  #hobbies {
+    margin: 40px 0px;
+  }
+  .hobbie-container .cardpic {
+    width: 160px;
+    height: 95px;
+  }
+  .hobbie-container .cardpic .imgBx {
+    width: 120px;
+    height: 95px;
+  }
+  .hobbie-container .cardpic:hover {
+    height: 180px;
+  }
+  .content {
+    font-size: 60%;
+  }
+}
 
 /* Experience */
 #experience {
@@ -762,6 +837,14 @@ body {
     padding: 8px 3%;
   }
 }
+@media (max-width: 500px) {
+  #experience {
+    font-size: 65%;
+  }
+  .history-box {
+    margin: 30px 0;
+  }
+}
 /* Skills and education */
 #Skills-education {
   display: grid;
@@ -774,8 +857,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 8%;
-  gap: 5px;
+  padding: 6.3%;
+  gap: 3px;
 }
 
 #Skills-education h2 {
@@ -846,6 +929,7 @@ body {
     0px 5px 20px var(--shadow-color);
   transition: ease-in 0.5s;
 }
+
 @media (max-width: 1400px) {
   .skills {
     gap: 60px;
@@ -959,7 +1043,28 @@ body {
   #Skills-education {
     padding: 6% 6%;
   }
-} 
+}
+@media (max-width: 550px) {
+  .skills {
+    gap: 15px;
+  }
+  .circle {
+    width: 90px;
+    height: 90px;
+  }
+  #Skills-education {
+    padding: 10% 6%;
+  }
+}
+@media (max-width: 500px) {
+  #Skills-education {
+    font-size: 12px;
+  }
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+}
 /* Project Cards */
 #My-Projects {
   display: grid;
@@ -1120,19 +1225,29 @@ body {
     gap: 20px;
   }
 }
-@media (max-width: 411px) {
+@media (max-width: 600px) {
   #My-Projects {
-    font-size: 14px;
-    padding-top: 6%;
-    padding-right: 2%;
-    padding-left: 2%;
-    padding: 1%;
+    padding: 10% 0%;
+  }
+  .fliter-container {
+    display: flex;
+    margin: 0px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 550px) {
+  .fliter-btn {
+    font-size: 80%;
+    padding: 7px 15px;
+    margin: 0px 8px;
+  }
   .cards-container {
-    margin: 30px;
+    margin: 40px;
+  }
 }
+@media (max-width: 500px) {
+  #My-Projects {
+    font-size: 13px;
+  }
 }
 
 /* Testimonial */
@@ -1277,16 +1392,22 @@ body {
   }
 }
 @media (max-width: 600px) {
-  .carousel .carouselcard{
+  .carousel .carouselcard {
     padding: 0px;
   }
 }
-@media (max-width: 411px) {
+@media (max-width: 550px) {
+  .carousel .carouselcard {
+    margin: 10px 73px;
+    padding: 10px;
+  }
+}
+@media (max-width: 500px) {
   #testimonial {
     font-size: 80%;
   }
   .carousel .carouselcard {
-    padding: 20px;
+    margin: 10px 60px;
   }
 }
 
@@ -1522,7 +1643,7 @@ body {
     display: none;
   }
 }
-@media (max-width) {
+@media (max-width: 600px) {
   #contactme {
     margin-left: 3%;
     margin-right: 3%;
@@ -1533,25 +1654,21 @@ body {
     font-size: 80%;
   }
 }
-@media (max-width: 411px) {
+@media (max-width: 550px) {
   #contactme {
-    padding: 0px;
-    padding-bottom: 25%;
+    font-size: 77%;
+  }
+}
+@media (max-width: 500px) {
+  #contactme {
     font-size: 70%;
   }
-  .contactsection {
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-  }
   .info-align {
-    flex-direction: row;
+    gap: 20px;
   }
-  .icons2 {
-    display: none;
-  }
-  .info {
-    padding: 20px;
+  .contact-form-details {
+    width: 225px;
+    height: 285px;
   }
 }
 /* Loader */
