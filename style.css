@@ -80,6 +80,11 @@ body {
     margin-left: 1%;
   }
 }
+@media (max-width: 1050px) {
+  .navbutton {
+    margin-left: 0%;
+  }
+}
 @media (max-width: 1000px) {
   .navbutton {
     font-size: 80%;
@@ -88,6 +93,11 @@ body {
   }
   #topbar {
     padding: 2%;
+  }
+}
+@media (max-width: 952px) {
+  .navbutton {
+    margin-left: 0%;
   }
 }
 @media (max-width: 950px) {
@@ -100,7 +110,13 @@ body {
     padding: 2%;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 900px) {
+  .navbutton {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+}
+@media (max-width: 852px) {
   .navbutton {
     font-size: 70%;
     padding: 3px 10px 3px 10px;
@@ -119,6 +135,13 @@ body {
     margin: 5px;
   }
 }
+@media (max-width: 730px) {
+  .navbutton {
+    font-size: 60%;
+    margin: 4px;
+    letter-spacing: 4px;
+  }
+}
 @media (max-width: 700px) {
   .navbutton {
     font-size: 65%;
@@ -127,11 +150,17 @@ body {
     letter-spacing: 3px;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 655px) {
   .navbutton {
     font-size: 70%;
     margin: 4px;
     letter-spacing: 2px;
+  }
+}
+@media (max-width: 625px) {
+  .navbutton {
+    font-size: 68%;
+    margin: 3px;
   }
 }
 @media (max-width: 600px) {
@@ -150,10 +179,22 @@ body {
     font-size: 65%;
   }
 }
+@media (max-width: 480px) {
+  .navbutton {
+    margin: 2px;
+    font-size: 60%;
+  }
+}
 @media (max-width: 450px) {
   .navbutton {
     margin: 4px;
     font-size: 50%;
+  }
+}
+@media (max-width: 435px) {
+  .navbutton {
+    margin: 2.5px;
+    font-size: 45%;
   }
 }
 @media (max-width: 400px) {
@@ -163,11 +204,17 @@ body {
     border: 1px solid var(--primary-color);
   }
 }
+@media (max-width: 385px) {
+  .navbutton {
+    margin: 1.5px;
+    font-size: 41%;
+  }
+}
 @media (max-width: 350px) {
   .navbutton {
     margin: 2px;
-    padding: 2px 6px 2px 6px;
-    font-size: 50%;
+    padding: 2px 5px 2px 5px;
+    font-size: 46%;
     border: 1px solid var(--primary-color);
   }
 }
@@ -177,7 +224,7 @@ body {
     padding: 2px 5px 2px 5px;
     font-size: 45%;
   } */
-  #topbar{
+  #topbar {
     display: none;
   }
 }
@@ -289,6 +336,11 @@ body {
 @media (max-width: 400px) {
   .landing {
     font-size: 16px;
+  }
+}
+@media (max-width: 360px) {
+  .landing {
+    font-size: 15px;
   }
 }
 @media (max-width: 350px) {
@@ -437,6 +489,11 @@ body {
 @media (max-width: 400px) {
   .icons {
     margin-right: 49%;
+  }
+}
+@media (max-width: 360px) {
+  .icons {
+    margin-right: 54%;
   }
 }
 @media (max-width: 350px) {
@@ -736,6 +793,12 @@ body {
     gap: 30px;
   }
 }
+@media (max-width: 800px) {
+  #hobbies {
+    margin: 50px 70px;
+    gap: 15px;
+  }
+}
 @media (max-width: 750px) {
   #hobbies {
     margin: 60px 50px;
@@ -807,7 +870,7 @@ body {
     font-size: 60%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   #hobbies {
     margin: 30px 0px;
     gap: 0px;
@@ -2066,5 +2129,6 @@ body {
     font-size: 42%;
   }
   .headcontactword {
-    font-size: 140%;}
+    font-size: 140%;
+  }
 }
