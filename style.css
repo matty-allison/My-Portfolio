@@ -1997,6 +1997,7 @@ body {
 @media (max-width: 650px) {
   .contactsection {
     padding-top: 50px;
+    margin-bottom: 30px;
     flex-direction: column;
     align-items: center;
   }
