@@ -1827,6 +1827,7 @@ body {
 .contactsection {
   display: flex;
   padding-top: 100px;
+  margin-bottom: 30px;
   justify-content: space-evenly;
 }
 
