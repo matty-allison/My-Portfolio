@@ -28,7 +28,7 @@ let projects = [
     projectImg: "Sneakerstore.png",
     nameHead: "Sneaker Store",
     Description:
-      "a small sneaker project myself and two other co-workers completed at Lifechoices academy.",
+      "a small sneaker project myself and two other co-workers completed as one of the first projects at Life choices academy.",
     language: "Html/Css",
     liveLink: "https://relaxed-saha-d93563.netlify.app/",
     githubLink: "https://github.com/matty-allison/Sneaker-website",
@@ -39,7 +39,7 @@ let projects = [
     Description:
       "A fun Lotto game, log in and see if you can guess the numbers",
     language: "Python",
-    liveLink: "",
+    liveLink: "https://replit.com/@mattyallison/end-of-python-module#.replit",
     githubLink: "https://github.com/matty-allison/Lotto-game",
   },
   {
