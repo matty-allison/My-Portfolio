@@ -2,7 +2,7 @@ let projects = [
   {
     projectImg: "CONTACTFORM.png",
     nameHead: "Contact Form",
-    Description: "a easy to style contact form with multiple uses.",
+    Description: "an easy to style contact form with multiple uses.",
     language: "Html/Css",
     liveLink: "https://clever-allen-20c6a0.netlify.app/",
     githubLink: "https://github.com/matty-allison/CONTACT-FORM",
@@ -72,7 +72,7 @@ let projects = [
   {
     projectImg: "easyticket.png",
     nameHead: "easy ticket project",
-    Description: "the easy ticket project is a app for buying tickets like to the movies",
+    Description: "the easy ticket project is an app for buying tickets for example the movies",
     language: "Python",
     liveLink: "https://replit.com/@mattyallison/OOP-assignment#.replit",
     githubLink: "https://github.com/matty-allison/OOP-assignment", 
