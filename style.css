@@ -100,6 +100,11 @@ body {
     margin-left: 0%;
   }
 }
+@media (max-width: 960px) {
+  .navbutton {
+    margin-left: 0%;
+  }
+}
 @media (max-width: 950px) {
   .navbutton {
     font-size: 80%;
@@ -110,10 +115,22 @@ body {
     padding: 2%;
   }
 }
+@media (max-width: 920px) {
+  .navbutton {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
 @media (max-width: 900px) {
   .navbutton {
     margin-left: 0.5%;
     margin-right: 0.5%;
+  }
+}
+@media (max-width: 860px) {
+  .navbutton {
+    font-size: 75%;
+    padding: 5px 13px 5px 13px;
   }
 }
 @media (max-width: 852px) {
@@ -121,6 +138,11 @@ body {
     font-size: 70%;
     padding: 3px 10px 3px 10px;
     margin-right: 2%;
+  }
+}
+@media (max-width: 852px) {
+  .navbutton {
+    margin-right: 1%;
   }
 }
 @media (max-width: 800px) {
@@ -150,11 +172,21 @@ body {
     letter-spacing: 3px;
   }
 }
+@media (max-width: 670px) {
+  .navbutton {
+    margin: 3px;
+  }
+}
 @media (max-width: 655px) {
   .navbutton {
     font-size: 70%;
     margin: 4px;
     letter-spacing: 2px;
+  }
+}
+@media (max-width: 630px) {
+  .navbutton {
+    letter-spacing: 1px;
   }
 }
 @media (max-width: 625px) {
@@ -168,6 +200,11 @@ body {
     letter-spacing: 1px;
   }
 }
+@media (max-width: 555px) {
+  .navbutton {
+    font-size: 66%;
+  }
+}
 @media (max-width: 550px) {
   .navbutton {
     letter-spacing: 0px;
@@ -177,6 +214,11 @@ body {
   .navbutton {
     margin: 3px;
     font-size: 65%;
+  }
+}
+@media (max-width: 495px) {
+  .navbutton {
+    margin: 2px;
   }
 }
 @media (max-width: 480px) {
@@ -216,6 +258,13 @@ body {
     padding: 2px 5px 2px 5px;
     font-size: 46%;
     border: 1px solid var(--primary-color);
+  }
+}
+@media (max-width: 310px) {
+   .navbutton {
+    margin: 1px;
+    padding: 2px 5px 2px 5px;
+    font-size: 45%;
   }
 }
 @media (max-width: 300px) {
@@ -352,6 +401,12 @@ body {
     font-size: 22px;
   }
 }
+@media (max-width: 320px) {
+  .landing {
+    font-size: 16px;
+    letter-spacing: 5px;
+  }
+}
 @media (max-width: 300px) {
   .landingimg {
     width: 150px;
@@ -412,10 +467,24 @@ body {
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color);
   transition: ease-in 0.4s;
 }
-
-@media (max-width: 1440px) {
+@media (max-width: 1770px) {
+  .icons {
+    margin-right: 13%;
+  }
+}
+@media (max-width: 1600px) {
+  .icons {
+    margin-right: 14%;
+  }
+}
+@media (max-width: 1443px) {
   .icons {
     margin-right: 15%;
+  }
+}
+@media (max-width: 1300px) {
+  .icons {
+    margin-right: 17%;
   }
 }
 
@@ -424,7 +493,11 @@ body {
     margin-right: 17%;
   }
 }
-
+@media (max-width: 1160px) {
+  .icons {
+    margin-right: 19%;
+  }
+}
 @media (max-width: 1150px) {
   .icons {
     margin-right: 20%;
@@ -436,7 +509,11 @@ body {
     margin-right: 23%;
   }
 }
-
+@media (max-width: 860px) {
+  .icons {
+    margin-right: 25%;
+  }
+}
 @media (max-width: 850px) {
   .icons {
     margin-right: 26%;
@@ -457,14 +534,39 @@ body {
     margin-right: 30%;
   }
 }
+@media (max-width: 680px) {
+  .icons {
+    margin-right: 31%;
+  }
+}
+@media (max-width: 670px) {
+  .icons {
+    margin-right: 32%;
+  }
+}
 @media (max-width: 650px) {
   .icons {
     margin-right: 33%;
   }
 }
+@media (max-width: 630px) {
+  .icons {
+    margin-right: 34%;
+  }
+}
 @media (max-width: 600px) {
   .icons {
     margin-right: 34%;
+  }
+}
+@media (max-width: 580px) {
+  .icons {
+    margin-right: 37%;
+  }
+}
+@media (max-width: 555px) {
+  .icons {
+    margin-right: 38%;
   }
 }
 @media (max-width: 550px) {
@@ -481,6 +583,11 @@ body {
     font-size: 130%;
   }
 }
+@media (max-width: 470px) {
+  .icons {
+    margin-right: 42%;
+  }
+}
 @media (max-width: 450px) {
   .icons {
     margin-right: 42%;
@@ -491,7 +598,7 @@ body {
     margin-right: 49%;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 363px) {
   .icons {
     margin-right: 54%;
   }
@@ -501,6 +608,15 @@ body {
     margin-right: 56%;
   }
 }
+@media (max-width: 350px) {
+  .icons {
+    margin-right: 58%;
+  }
+}
+@media (max-width: 350px){
+.icons {
+    margin-right: 63%;
+}}
 @media (max-width: 300px) {
   #footerbar h2 {
     font-size: 110%;
@@ -582,12 +698,14 @@ body {
     0px 5px 20px var(--shadow-color);
   transition: 0.5s ease-in-out;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
   #about img {
     display: none;
   }
+}
+@media (max-width: 1400px) {
   #about {
-    padding: 5% 10%;
+    padding: 8% 10%;
   }
 }
 
@@ -768,6 +886,11 @@ body {
     gap: 50px;
   }
 }
+@media (max-width: 1070px) {
+  #hobbies {
+    margin: 50px 150px;
+  }
+}
 @media (max-width: 1000px) {
   #hobbies {
     margin: 50px 150px;
@@ -785,6 +908,16 @@ body {
   }
   .content {
     font-size: 90%;
+  }
+}
+@media (max-width: 920px) {
+  #hobbies {
+    margin: 50px 135px;
+  }
+}
+@media (max-width: 890px) {
+  #hobbies {
+    margin: 50px 120px;
   }
 }
 @media (max-width: 850px) {
@@ -808,6 +941,12 @@ body {
     padding-top: 9%;
   }
 }
+@media (max-width: 680px) {
+  #hobbies {
+    margin: 60px 30px;
+    gap: 10px;
+  }
+}
 @media (max-width: 650px) {
   #hobbies {
     margin: 50px 50px;
@@ -825,6 +964,11 @@ body {
   }
   .content {
     font-size: 70%;
+  }
+}
+@media (max-width: 630px) {
+  #hobbies {
+    margin: 50px 15px;
   }
 }
 @media (max-width: 600px) {
@@ -872,22 +1016,62 @@ body {
 }
 @media (max-width: 450px) {
   #hobbies {
-    margin: 30px 0px;
+    margin: 25px 0px;
     gap: 0px;
   }
   .hobbie-container .cardpic {
-    width: 140px;
-    height: 75px;
+    width: 130px;
+    height: 65px;
   }
   .hobbie-container .cardpic .imgBx {
-    width: 110px;
-    height: 85px;
+    width: 100px;
+    height: 75px;
   }
   .hobbie-container .cardpic:hover {
-    height: 160px;
+    height: 150px;
   }
   .content {
-    font-size: 50%;
+    font-size: 45%;
+  }
+}
+@media (max-width: 380px) {
+  #hobbies {
+    margin: 20px 0px;
+    gap: 0px;
+  }
+  .hobbie-container .cardpic {
+    width: 120px;
+    height: 55px;
+  }
+  .hobbie-container .cardpic .imgBx {
+    width: 90px;
+    height: 65px;
+  }
+  .hobbie-container .cardpic:hover {
+    height: 140px;
+  }
+  .content {
+    font-size: 40%;
+  }
+}
+@media (max-width: 360px) {
+  #hobbies {
+    margin: 15px 0px;
+    gap: 0px;
+  }
+  .hobbie-container .cardpic {
+    width: 110px;
+    height: 45px;
+  }
+  .hobbie-container .cardpic .imgBx {
+    width: 85px;
+    height: 55px;
+  }
+  .hobbie-container .cardpic:hover {
+    height: 130px;
+  }
+  .content {
+    font-size: 35%;
   }
 }
 @media (max-width: 350px) {
@@ -896,8 +1080,10 @@ body {
     gap: 0px;
     padding: 5px;
   }
+
   .hobbie-container .cardpic {
     width: 120px;
+    margin: 25px 5px;
     height: 65px;
   }
   .hobbie-container .cardpic .imgBx {
@@ -910,6 +1096,33 @@ body {
   }
   .content {
     font-size: 50%;
+  }
+  .hobbie-container .cardpic .content {
+    letter-spacing: 0px;
+  }
+}
+@media (max-width: 330px) {
+  #hobbies {
+    margin: 17px 0px;
+    gap: 0px;
+    padding: 3px;
+  }
+
+  .hobbie-container .cardpic {
+    width: 110px;
+    margin: 23px 3px;
+    height: 55px;
+  }
+  .hobbie-container .cardpic .imgBx {
+    width: 90px;
+    height: 70px;
+    left: 5px;
+  }
+  .hobbie-container .cardpic:hover {
+    height: 140px;
+  }
+  .content {
+    font-size: 45%;
   }
   .hobbie-container .cardpic .content {
     letter-spacing: 0px;
@@ -1062,6 +1275,11 @@ body {
     font-size: 80%;
   }
 }
+@media (max-width: 950px) {
+  .work-history {
+    padding: 10px 12%;
+  }
+}
 @media (max-width: 850px) {
   .work-history {
     padding: 8px 10%;
@@ -1073,6 +1291,11 @@ body {
 @media (max-width: 750px) {
   #experience {
     padding: 11% 5%;
+  }
+}
+@media (max-width: 680px) {
+  #experience {
+    padding: 11% 0%;
   }
 }
 @media (max-width: 600px) {
@@ -1117,7 +1340,7 @@ body {
   margin-left: 1%;
   margin-right: 1%;
   color: var(--primary-color);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -1194,6 +1417,15 @@ body {
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color);
   transition: ease-in 0.5s;
+}
+@media (max-width: 1500px) {
+  #Skills-education {
+    font-size: 18px;
+  }
+  .skills {
+    display: flex;
+    gap: 78px;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -1502,6 +1734,11 @@ body {
     margin: 0px 10px;
   }
 }
+@media (max-width: 960px) {
+  .cards-container {
+    margin: 60px;
+  }
+}
 @media (max-width: 950px) {
   .button2 {
     padding: 5px 15px;
@@ -1523,10 +1760,22 @@ body {
     padding: 10% 6%;
   }
 }
+@media (max-width: 680px) {
+  .cards-container {
+    margin: 50px;
+  }
+}
 @media (max-width: 650px) {
   .card-details {
     padding: 10px;
     gap: 20px;
+  }
+}
+@media (max-width: 630px) {
+  .fliter-btn {
+    font-size: 85%;
+    padding: 8px 15px;
+    margin: 0px 10px;
   }
 }
 @media (max-width: 600px) {
@@ -1583,12 +1832,23 @@ body {
     height: 220px;
   }
 }
+@media (max-width: 383px) {
+  .cards-container {
+    margin: 15px;
+  }
+}
+@media (max-width: 363px) {
+  .card {
+    width: 43%;
+    height: 220px;
+  }
+}
 @media (max-width: 350px) {
   .cards-container {
     margin: 20px 8px;
   }
   .card {
-    width: 45%;
+    width: 40%;
     height: 205px;
     box-shadow: 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color);
   }
@@ -1599,6 +1859,13 @@ body {
   .button2 {
     padding: 5px 13px;
   }
+}
+@media (max-width: 330px) {
+  .cards-container {
+    margin: 20px 2px;
+  }
+  .fliter-btn {
+    letter-spacing: 1px;
 }
 @media (max-width: 300px) {
   .fliter-btn {
@@ -1677,7 +1944,7 @@ body {
     height: 250px;
   }
   .carousel .carouselcard {
-    line-height: 30px;
+    line-height: 25px;
     margin-right: 20px;
   }
 }
@@ -1736,12 +2003,19 @@ body {
     padding: 15px;
   }
 }
-
+@media (max-width: 999px) {
+  .carousel .carouselcard {
+    line-height: 40px;
+  }
+  .testimonialimg {
+    height: 200px;
+  }
+}
 @media (max-width: 950px) {
   .carousel .carouselcard {
-    line-height: 25px;
+    line-height: 33px;
     padding: 15px;
-    width: 190px;
+    width: 245px;
   }
   .owl-carousel .owl-item img {
     width: 100%;
@@ -1749,6 +2023,33 @@ body {
   #testimonial {
     margin-right: 16%;
     margin-left: 20%;
+  }
+}
+
+@media (max-width: 850px) {
+  .carousel .carouselcard {
+    line-height: 30px;
+    padding: 5px;
+    width: 230px;
+  }
+}
+@media (max-width: 740px) {
+  .carousel .carouselcard {
+    line-height: 25px;
+    padding: 0px;
+    width: 215px;
+  }
+}
+@media (max-width: 680px) {
+  .carousel .carouselcard {
+    line-height: 23px;
+    width: 190px;
+  }
+  .testimonialimg {
+    height: 165px;
+  }
+  #testimonial {
+    font-size: 95%;
   }
 }
 @media (max-width: 650px) {
@@ -1762,10 +2063,20 @@ body {
     padding: 0px;
   }
 }
+@media (max-width: 599px) {
+  .carousel .carouselcard {
+    margin-left: 25%;
+  }
+}
 @media (max-width: 550px) {
   .carousel .carouselcard {
     margin: 10px 73px;
     padding: 10px;
+  }
+}
+@media (max-width: 520px) {
+  .carousel .carouselcard {
+    margin: 10px 65px;
   }
 }
 @media (max-width: 500px) {
@@ -1776,9 +2087,14 @@ body {
     margin: 10px 60px;
   }
 }
+@media (max-width: 470px) {
+  #testimonial {
+    margin-left: 15%;
+  }
+}
 @media (max-width: 450px) {
   .carousel .carouselcard {
-    margin: 10px 40px;
+    margin: 10px 45px;
   }
 }
 @media (max-width: 400px) {
@@ -1810,7 +2126,7 @@ body {
   color: var(--primary-color);
   font-size: 110%;
   font-weight: 700;
-  padding: 0px 0px 160px 0px;
+  padding: 60px 0px 125px 0px;
   flex-direction: column;
   align-content: center;
 }
@@ -1988,6 +2304,9 @@ body {
   .contactsection {
     gap: 20px;
   }
+  #contactme {
+    padding-bottom: 15%;
+  }
 }
 @media (max-width: 750px) {
   .info {
@@ -2047,9 +2366,26 @@ body {
     font-size: 80%;
   }
 }
+@media (max-width: 558px) {
+  .info-align {
+    flex-direction: column;
+    margin: 0px 9px;
+  }
+}
+@media (max-width: 552px) {
+  #contactme {
+    font-size: 78%;
+  }
+}
+
 @media (max-width: 550px) {
   #contactme {
     font-size: 77%;
+  }
+}
+@media (max-width: 535px) {
+  #contactme {
+    font-size: 70%;
   }
 }
 @media (max-width: 500px) {
@@ -2064,9 +2400,25 @@ body {
     height: 285px;
   }
 }
+@media (max-width: 495px) {
+  #contactme {
+    font-size: 65%;
+  }
+}
+@media (max-width: 463px) {
+  #contactme {
+    font-size: 62%;
+  }
+}
 @media (max-width: 450px) {
   #contactme {
     font-size: 58%;
+  }
+}
+@media (max-width: 432px) {
+  .button2 {
+    padding: 3px 10px;
+    border: solid 2px var(--primary-color);
   }
 }
 @media (max-width: 400px) {
@@ -2083,6 +2435,22 @@ body {
     font-size: 12px;
   }
 }
+
+@media (max-width: 393px) {
+  #contactme {
+    font-size: 49%;
+  }
+}
+@media (max-width: 370px) {
+  #contactme {
+    font-size: 47%;
+  }
+}
+@media (max-width: 357px) {
+  #contactme {
+    font-size: 45%;
+  }
+}
 @media (max-width: 350px) {
   #contactme {
     font-size: 51%;
@@ -2090,7 +2458,7 @@ body {
     margin-right: 0px;
   }
   .info-align {
-    margin: 0px 7px;
+    margin: 0px 4px;
   }
   .btn2 {
     height: 35px;
@@ -2106,6 +2474,16 @@ body {
     box-shadow: 0px 5px 20px var(--shadow-color),
       0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
       0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color);
+  }
+}
+@media (max-width: 330px) {
+  #contactme {
+    font-size: 46%;
+  }
+}
+@media (max-width: 320px) {
+  .card {
+    width: 43%;
   }
 }
 @media (max-width: 300px) {

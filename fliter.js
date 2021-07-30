@@ -34,13 +34,13 @@ let projects = [
     githubLink: "https://github.com/matty-allison/Sneaker-website",
   },
   {
-    projectImg: "lotto.png",
-    nameHead: "Lotto game",
+    projectImg: "BMI.png",
+    nameHead: "BMI calculator",
     Description:
-      "A fun Lotto game, log in and see if you can guess the numbers",
+      "calculate your body mass index with this BMI calculator",
     language: "Python",
-    liveLink: "https://replit.com/@mattyallison/end-of-python-module#.replit",
-    githubLink: "https://github.com/matty-allison/Lotto-game",
+    liveLink: "https://replit.com/@mattyallison/BMI-calculator#.replit",
+    githubLink: "https://github.com/matty-allison/BMI-calculator",
   },
   {
     projectImg: "calculator].png",
@@ -70,12 +70,12 @@ let projects = [
     githubLink: "https://github.com/matty-allison/DOM_manipulation/tree/main/dom%20manipultion",
   },
   {
-    projectImg: "databases.png",
-    nameHead: "Database project",
-    Description: "Python database project used for signing up, logging in and a few other features",
+    projectImg: "easyticket.png",
+    nameHead: "easy ticket project",
+    Description: "the easy ticket project is a app for buying tickets like to the movies",
     language: "Python",
-    liveLink: "https://replit.com/@mattyallison/Databases-EMOP#.replit",
-    githubLink: "https://github.com/matty-allison/Databases--EMOP", 
+    liveLink: "https://replit.com/@mattyallison/OOP-assignment#.replit",
+    githubLink: "https://github.com/matty-allison/OOP-assignment", 
   }
 ];
 
