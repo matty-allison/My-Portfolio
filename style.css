@@ -6,7 +6,12 @@
 
 body {
   color: white;
-  background-image: url(./Images/background-img.jpg);
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./Images/background-img.jpg);
   background-attachment: fixed;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -793,7 +798,7 @@ body {
 }
 /* Hobbies */
 
-#hobbie_head {
+/* #hobbie_head {
   display: flex;
   padding-top: 7%;
   padding-right: 2%;
@@ -1158,7 +1163,7 @@ body {
   .hobbie-container .cardpic:hover .content {
     margin-top: -45px;
   }
-}
+} */
 /* Experience */
 #experience {
   display: grid;
@@ -1923,7 +1928,7 @@ body {
   text-align: center;
   margin: 20px 0px;
   border-radius: 10px;
-  padding: 30px;
+  padding: 40px;
 }
 
 .testimonialimg {

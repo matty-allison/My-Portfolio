@@ -36,8 +36,7 @@ let projects = [
   {
     projectImg: "BMI.png",
     nameHead: "BMI calculator",
-    Description:
-      "calculate your body mass index with this BMI calculator",
+    Description: "calculate your body mass index with this BMI calculator",
     language: "Python",
     liveLink: "https://replit.com/@mattyallison/BMI-calculator#.replit",
     githubLink: "https://github.com/matty-allison/BMI-calculator",
@@ -67,28 +66,31 @@ let projects = [
       "A Javascript fliter and search bar for any website implementation.",
     language: "Javascript",
     liveLink: "https://modest-stonebraker-b120c3.netlify.app/",
-    githubLink: "https://github.com/matty-allison/DOM_manipulation/tree/main/dom%20manipultion",
+    githubLink:
+      "https://github.com/matty-allison/DOM_manipulation/tree/main/dom%20manipultion",
   },
   {
     projectImg: "easyticket.png",
     nameHead: "easy ticket project",
-    Description: "the easy ticket project is an app for buying tickets for example the movies",
+    Description:
+      "the easy ticket project is an app for buying tickets for example the movies",
     language: "Python",
     liveLink: "https://replit.com/@mattyallison/OOP-assignment#.replit",
-    githubLink: "https://github.com/matty-allison/OOP-assignment", 
-  }
+    githubLink: "https://github.com/matty-allison/OOP-assignment",
+  },
 ];
 
 function createProject(project) {
-  let createProject = `<div class="card" language=${project.language} style="background: linear-gradient( 0deg, rgba(24, 23, 24, 0.3), rgba(24, 23, 24, 0.3)),
+  let createProject = `<div class="card" language=${project.language} style="background: linear-gradient( 0deg, rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0.6)),
   url(./Images/${project.projectImg});"> 
     <div class="card-details">
     <h2 class="card-heading">${project.nameHead}</h2>
     <p>${project.Description}</p>
     <h3 class="card-title">${project.language}</h3>
       <div class="buttons">
-        <a href="${project.liveLink}" target="blank" class="button2" >Live</a>
-        <a href="${project.githubLink}" target="blank" class="button2">Github</a>
+        <a href="${project.liveLink}" target="_blank" class="button2" >Live</a>
+        <a href="${project.githubLink}" target="_blank" class="button2">Github</a>
       </div>
     </div>
   </div>`;
@@ -122,54 +124,53 @@ function flitering(catergory) {
   }
 }
 
-let hobbies = [
-  {
-    pic: "./Images/games.jpg",
-    title: "Video Games",
-    hobbiesDescription:
-      "This is probably my biggest hobbie I have. If it wasn't for video games I probably wouldn't have been interested in technology.",
-  },
-  {
-    pic: "./Images/p1-min.jpeg",
-    title: "Art",
-    hobbiesDescription:
-      "Drawing started out as a hobbie for me but now my dream is to become and animator!",
-  },      
-  {
-    pic: "./Images/swimming.jpg",
-    title: "Swimming",
-    hobbiesDescription:
-      "I love swimming and I have been doing it throughout my life.",
-  },
-  {
-    pic: "./Images/hiking.jpg",
-    title: "Hiking",
-    hobbiesDescription:
-      "As a family, myself, my two siblings and my parents go on regular hikes. We love the fresh air and amazing views",
-  },
-];
+// let hobbies = [
+//   {
+//     pic: "./Images/games.jpg",
+//     title: "Video Games",
+//     hobbiesDescription:
+//       "This is probably my biggest hobbie I have. If it wasn't for video games I probably wouldn't have been interested in technology.",
+//   },
+//   {
+//     pic: "./Images/p1-min.jpeg",
+//     title: "Art",
+//     hobbiesDescription:
+//       "Drawing started out as a hobbie for me but now my dream is to become and animator!",
+//   },
+//   {
+//     pic: "./Images/swimming.jpg",
+//     title: "Swimming",
+//     hobbiesDescription:
+//       "I love swimming and I have been doing it throughout my life.",
+//   },
+//   {
+//     pic: "./Images/hiking.jpg",
+//     title: "Hiking",
+//     hobbiesDescription:
+//       "As a family, myself, my two siblings and my parents go on regular hikes. We love the fresh air and amazing views",
+//   },
+// ];
 
-function createHobbies(hobbie) {
-  let createHobbies = `
-  <div class="hobbie-container">
-    <div class="cardpic">
-      <img src="${hobbie.pic}" alt="" class="imgBx">
-      <div class="content">
-        <h2>${hobbie.title}</h2>
-        <p>${hobbie.hobbiesDescription}</p>
-      </div>
-    </div>
-  </div>`;
-  return createHobbies;
-}
+// function createHobbies(hobbie) {
+//   let createHobbies = `
+//   <div class="hobbie-container">
+//     <div class="cardpic">
+//       <img src="${hobbie.pic}" alt="" class="imgBx">
+//       <div class="content">
+//         <h2>${hobbie.title}</h2>
+//         <p>${hobbie.hobbiesDescription}</p>
+//       </div>
+//     </div>
+//   </div>`;
+//   return createHobbies;
+// }
 
-function displayHobbies() {
-  let hobbiesContainer = document.querySelector("#hobbies");
-  for (hobbie of hobbies) {
-    let fun = createHobbies(hobbie);
-    hobbiesContainer.innerHTML += fun;
-  }
-}
+// function displayHobbies() {
+//   let hobbiesContainer = document.querySelector("#hobbies");
+//   for (hobbie of hobbies) {
+//     let fun = createHobbies(hobbie);
+//     hobbiesContainer.innerHTML += fun;
+//   }
+// }
 
-displayHobbies();
-
+// displayHobbies();
