@@ -6,11 +6,7 @@
 
 body {
   color: white;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(./Images/background-img.jpg);
   background-attachment: fixed;
   overflow-x: hidden;
@@ -33,7 +29,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .navlinks {
   display: flex;
@@ -85,11 +81,6 @@ body {
     margin-left: 1%;
   }
 }
-@media (max-width: 1050px) {
-  .navbutton {
-    margin-left: 0%;
-  }
-}
 @media (max-width: 1000px) {
   .navbutton {
     font-size: 80%;
@@ -101,11 +92,6 @@ body {
   }
 }
 @media (max-width: 952px) {
-  .navbutton {
-    margin-left: 0%;
-  }
-}
-@media (max-width: 960px) {
   .navbutton {
     margin-left: 0%;
   }
@@ -126,12 +112,6 @@ body {
     margin-right: 1%;
   }
 }
-@media (max-width: 900px) {
-  .navbutton {
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-  }
-}
 @media (max-width: 860px) {
   .navbutton {
     font-size: 75%;
@@ -140,9 +120,9 @@ body {
 }
 @media (max-width: 852px) {
   .navbutton {
-    font-size: 70%;
-    padding: 3px 10px 3px 10px;
-    margin-right: 2%;
+    font-size: 80%;
+    padding: 4px 10px 4px 10px;
+    margin-right: 3%;
   }
 }
 @media (max-width: 852px) {
@@ -152,8 +132,7 @@ body {
 }
 @media (max-width: 800px) {
   .navbutton {
-    font-size: 60%;
-    margin: 1%;
+    font-size: 70%;
   }
 }
 @media (max-width: 750px) {
@@ -164,34 +143,29 @@ body {
 }
 @media (max-width: 730px) {
   .navbutton {
-    font-size: 60%;
+    font-size: 70%;
     margin: 4px;
     letter-spacing: 4px;
   }
 }
 @media (max-width: 700px) {
   .navbutton {
-    font-size: 65%;
+    font-size: 70%;
     font-weight: 800;
-    margin: 4px;
+    margin: 5px;
     letter-spacing: 3px;
   }
 }
 @media (max-width: 670px) {
   .navbutton {
-    margin: 3px;
+    margin: 4px;
   }
 }
 @media (max-width: 655px) {
   .navbutton {
     font-size: 70%;
     margin: 4px;
-    letter-spacing: 2px;
-  }
-}
-@media (max-width: 630px) {
-  .navbutton {
-    letter-spacing: 1px;
+    letter-spacing: 3px;
   }
 }
 @media (max-width: 625px) {
@@ -202,7 +176,7 @@ body {
 }
 @media (max-width: 600px) {
   .navbutton {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
   }
 }
 @media (max-width: 555px) {
@@ -212,7 +186,9 @@ body {
 }
 @media (max-width: 550px) {
   .navbutton {
-    letter-spacing: 0px;
+    letter-spacing: 1px;
+    font-size: 68%;
+    margin: 4px;
   }
 }
 @media (max-width: 500px) {
@@ -456,7 +432,7 @@ body {
   display: flex;
   font-size: 125%;
   gap: 40%;
-  margin-right: 12%;
+  justify-content: center;
 }
 
 .icons a {
@@ -472,155 +448,18 @@ body {
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color);
   transition: ease-in 0.4s;
 }
-@media (max-width: 1770px) {
-  .icons {
-    margin-right: 13%;
-  }
-}
-@media (max-width: 1600px) {
-  .icons {
-    margin-right: 14%;
-  }
-}
-@media (max-width: 1443px) {
-  .icons {
-    margin-right: 15%;
-  }
-}
-@media (max-width: 1300px) {
-  .icons {
-    margin-right: 17%;
-  }
-}
 
-@media (max-width: 1250px) {
-  .icons {
-    margin-right: 17%;
-  }
-}
-@media (max-width: 1160px) {
-  .icons {
-    margin-right: 19%;
-  }
-}
-@media (max-width: 1150px) {
-  .icons {
-    margin-right: 20%;
-  }
-}
-
-@media (max-width: 1000px) {
-  .icons {
-    margin-right: 23%;
-  }
-}
-@media (max-width: 860px) {
-  .icons {
-    margin-right: 25%;
-  }
-}
-@media (max-width: 850px) {
-  .icons {
-    margin-right: 26%;
-  }
-}
-@media (max-width: 800px) {
-  .icons {
-    margin-right: 28%;
-  }
-}
 @media (max-width: 750px) {
   .icons {
     font-size: 120%;
   }
 }
-@media (max-width: 700px) {
-  .icons {
-    margin-right: 30%;
-  }
-}
-@media (max-width: 680px) {
-  .icons {
-    margin-right: 31%;
-  }
-}
-@media (max-width: 670px) {
-  .icons {
-    margin-right: 32%;
-  }
-}
-@media (max-width: 650px) {
-  .icons {
-    margin-right: 33%;
-  }
-}
-@media (max-width: 630px) {
-  .icons {
-    margin-right: 34%;
-  }
-}
-@media (max-width: 600px) {
-  .icons {
-    margin-right: 34%;
-  }
-}
-@media (max-width: 580px) {
-  .icons {
-    margin-right: 37%;
-  }
-}
-@media (max-width: 555px) {
-  .icons {
-    margin-right: 38%;
-  }
-}
-@media (max-width: 550px) {
-  .icons {
-    margin-right: 38%;
-  }
-}
 @media (max-width: 500px) {
   .icons {
-    margin-right: 39%;
     font-size: 110%;
   }
   #footerbar h2 {
     font-size: 130%;
-  }
-}
-@media (max-width: 470px) {
-  .icons {
-    margin-right: 42%;
-  }
-}
-@media (max-width: 450px) {
-  .icons {
-    margin-right: 42%;
-  }
-}
-@media (max-width: 400px) {
-  .icons {
-    margin-right: 49%;
-  }
-}
-@media (max-width: 363px) {
-  .icons {
-    margin-right: 54%;
-  }
-}
-@media (max-width: 350px) {
-  .icons {
-    margin-right: 56%;
-  }
-}
-@media (max-width: 350px) {
-  .icons {
-    margin-right: 58%;
-  }
-}
-@media (max-width: 350px) {
-  .icons {
-    margin-right: 63%;
   }
 }
 @media (max-width: 300px) {
@@ -628,7 +467,6 @@ body {
     font-size: 110%;
   }
   .icons {
-    margin-right: 56%;
     font-size: 96%;
   }
 }
@@ -1343,8 +1181,8 @@ body {
 /* Skills and education */
 #Skills-education {
   display: grid;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
   color: var(--primary-color);
   font-size: 20px;
   font-weight: 700;
@@ -1352,8 +1190,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 6.3%;
-  gap: 3px;
+  padding: 7%;
+  gap: 20px;
 }
 
 #Skills-education h2 {
@@ -1365,14 +1203,13 @@ body {
 
 .educationwords {
   display: flex;
-  margin: 5%;
+  width: 60%;
 }
 
 .school {
   display: flex;
   flex-direction: column;
-  padding: 0px 50px;
-  gap: 40px;
+  gap: 20px;
   width: 50%;
 }
 
@@ -1380,15 +1217,36 @@ body {
   text-decoration: underline;
 }
 
-.subjects {
+.course{
   display: flex;
   flex-direction: column;
-  padding: 0px 50px;
-  gap: 10px;
+  text-align: end;
+  gap: 20px;
   width: 50%;
 }
 
+.course h4{
+  text-decoration: underline;
+}
+
+.subjects {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .subjects h4 {
+  text-decoration: underline;
+}
+
+.subjects2 {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  gap: 10px;
+}
+
+.subjects2 h4 {
   text-decoration: underline;
 }
 
@@ -1436,7 +1294,7 @@ body {
 
 @media (max-width: 1400px) {
   .skills {
-    gap: 60px;
+    gap: 85px;
   }
   .circle {
     width: 140px;
@@ -1719,6 +1577,9 @@ body {
   #My-Projects {
     padding: 6%;
   }
+  .cards-container {
+    margin: 0px 180px;
+  }
 }
 @media (max-width: 1300px) {
   .card {
@@ -1953,6 +1814,7 @@ body {
   .carousel .carouselcard {
     line-height: 25px;
     margin-right: 20px;
+    padding: 20px;
   }
 }
 @media (max-width: 1300px) {
