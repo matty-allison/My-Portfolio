@@ -1294,7 +1294,7 @@ body {
 
 @media (max-width: 1400px) {
   .skills {
-    gap: 85px;
+    gap: 50px;
   }
   .circle {
     width: 140px;
@@ -1305,10 +1305,10 @@ body {
   }
   .subjects {
     width: 40%;
-    padding: 0px 30px;
+    padding: 0px 0px;
   }
   #Skills-education {
-    padding: 8% 15%;
+    padding: 8% 0px;
   }
 }
 @media (max-width: 1300px) {
@@ -1318,27 +1318,20 @@ body {
   .school {
     padding: 0px 0px;
   }
-  .subjects {
-    width: 40%;
-    padding: 0px 30px;
-  }
-  #Skills-education {
-    padding: 8% 15%;
-  }
 }
 @media (max-width: 1250px) {
   .school {
-    padding: 0px 40px;
+    padding: 0px 20px;
   }
 
   .skills {
-    gap: 35px;
+    gap: 45px;
   }
 
   .circle {
     font-size: 150%;
-    width: 135px;
-    height: 135px;
+    width: 120px;
+    height: 120px;
   }
 }
 @media (max-width: 1150px) {
@@ -1367,14 +1360,14 @@ body {
     gap: 25px;
   }
   .circle {
-    font-size: 120%;
-    width: 110px;
-    height: 110px;
+    font-size: 110%;
+    width: 100px;
+    height: 100px;
   }
 }
 @media (max-width: 850px) {
   #Skills-education {
-    padding: 5% 10%;
+    padding: 5% 0px;
   }
 }
 @media (max-width: 800px) {
@@ -1382,28 +1375,38 @@ body {
     width: 100px;
     height: 100px;
   }
+  .school {
+    padding: 0px 0px;
+}
 }
 @media (max-width: 750px) {
-  .school {
-    padding: 0px 20px;
-  }
   #Skills-education {
-    padding: 10% 10%;
+    padding: 10% 0px;
+    font-size: 15px;
   }
 }
 @media (max-width: 700px) {
-  .school {
-    padding: 0px 10px;
+  #Skills-education {
+    margin-left: 0;
+    margin-right: 0;
   }
+
+  .educationwords {
+    width: 70%;
+}
 }
 @media (max-width: 650px) {
   .school {
     padding: 0px 0px;
   }
+
+  .educationwords {
+    width: 75%;
+}
 }
 @media (max-width: 600px) {
   #Skills-education {
-    padding: 6% 6%;
+    padding: 6% 0px;
   }
 }
 @media (max-width: 550px) {
@@ -1415,7 +1418,7 @@ body {
     height: 90px;
   }
   #Skills-education {
-    padding: 10% 6%;
+    padding: 10% 0px;
   }
 }
 @media (max-width: 500px) {
@@ -1423,13 +1426,13 @@ body {
     font-size: 12px;
   }
   .circle {
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
   }
 }
 @media (max-width: 450px) {
   #Skills-education {
-    padding: 10% 1%;
+    padding: 10% 0px;
   }
 }
 @media (max-width: 400px) {
@@ -1452,6 +1455,12 @@ body {
     width: 65px;
     height: 65px;
   }
+  #Skills-education {
+    font-size: 10px;
+  }
+  .educationwords {
+    width: 90%;
+}
 }
 @media (max-width: 300px) {
   #Skills-education h2 {
