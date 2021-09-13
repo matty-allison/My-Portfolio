@@ -78,6 +78,14 @@ let projects = [
     liveLink: "https://replit.com/@mattyallison/OOP-assignment#.replit",
     githubLink: "https://github.com/matty-allison/OOP-assignment",
   },
+  {
+    projectImg: "sneakeromatic.png",
+    nameHead: "Sneakeromatic e-commerce store",
+    Description: "Fullstack E-commerce shoe store",
+    language: "Javascript",
+    liveLink: "https://sneakeromatic.netlify.app/",
+    githubLink: "https://github.com/matty-allison/Frontend-Final_project"
+  }
 ];
 
 function createProject(project) {
