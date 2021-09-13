@@ -233,7 +233,7 @@ body {
     font-size: 41%;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   .navbutton {
     margin: 2px;
     padding: 2px 5px 2px 5px;
@@ -620,7 +620,7 @@ body {
     margin-right: 0%;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   .aboutwords {
     font-size: 77%;
     gap: 25px;
@@ -1170,7 +1170,7 @@ body {
     margin: 10px 0;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   #experience {
     font-size: 50%;
   }
@@ -1444,7 +1444,7 @@ body {
     height: 70px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   .school {
     gap: 20px;
   }
@@ -1713,7 +1713,7 @@ body {
     margin: 15px;
   }
 }
-@media (max-width: 363px) {
+@media (max-width: 360px) {
   .card {
     width: 43%;
     height: 220px;
@@ -1980,7 +1980,7 @@ body {
     margin: 10px 25px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   .carousel .carouselcard {
     margin: 10px 6px;
   }
@@ -2324,7 +2324,7 @@ body {
     font-size: 47%;
   }
 }
-@media (max-width: 357px) {
+@media (max-width: 360px) {
   #contactme {
     font-size: 45%;
   }
