@@ -8,11 +8,8 @@
       src="https://kit.fontawesome.com/284f158042.js"
       crossorigin="anonymous"
     ></script>
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       rel="shortcut icon"
       type="image/png"
@@ -240,7 +237,7 @@
                   src="./Images/Adam Africa (1)-min.JPG"
                   alt="image of testimonial giver"
                 />
-                <q align="justify">
+                <q class="quote" align="justify">
                   Matthew is not only a great programmer but also a phenominal
                   co-worker. He is extremely hard-working and has a great eye
                   for programming and design. He would never do anything
@@ -255,7 +252,7 @@
                   src="./Images/2021-team-jason-wandrag-min.jpg"
                   alt="image of testimonial giver"
                 />
-                <q align="justify">
+                <q class="quote" align="justify">
                   Matthew works extremely well both by himself and in groups. He
                   is diligent in doing his own research, and tackles projects
                   head on. He is always eager to improve himself and give his
@@ -270,7 +267,7 @@
                   src="./Images/thapelo-tsotetsi-min.jpg"
                   alt="image of testimonial giver"
                 />
-                <q align="justify">
+                <q class="quote" align="justify">
                   Matthew is a great student. He possesses a skill that allows
                   him to learn new technologies quickly. He has great
                   communication skills and works well withing a team having
@@ -286,7 +283,7 @@
                   src="./Images/C8 Apr21 Gary Africa (3)-min.JPG"
                   alt="image of testimonial giver"
                 />
-                <q align="justify">
+                <q class="quote" align="justify">
                   Matthew is good partner to work with . He is always keen on
                   learning new things when it comes to he's work. Matthew is
                   also a good team player. Works hard and always delivers 5 star
@@ -301,7 +298,7 @@
                   src="./Images/C8 Apr21 Zipho Sithandathu (1)-min.JPG"
                   alt="image of testimonial giver"
                 />
-                <q align="justify">
+                <q class="quote" align="justify">
                   Matthew is a very punctual guy, who is always available to help others
                   when you run into a problem. He works well both alone and
                   within a team
@@ -397,34 +394,30 @@
         </section>
   </div>
   <script src="./fliter.js"></script>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-      $(document).ready(function () {
-        $(".carousel").owlCarousel({
-          margin: 10,
+      $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        items: 1,
+          margin: 60,
           loop: true,
-          items: 4,
+          stagePadding: 10,
           autoplay: true,
           autoplayTimeout: 10000,
-          autoplayHoverPause: true,
-          nav: false,
           responsive: {
             0: {
               items: 1,
+              stagePadding: 0,
             },
-            600: {
-              items: 2,
-            },
-            1000: {
-              items: 3,
-            },
-            2000: {
-              items: 4,
+            500: {
+              items: 1,
+              margin: 50,
+              stagePadding: 0,
             },
           },
-        });
       });
+    });
     </script>
     <script>$('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
