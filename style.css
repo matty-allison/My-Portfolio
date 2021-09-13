@@ -1813,7 +1813,7 @@ body {
 
 .owl-carousel .owl-item img {
   width: 250px; 
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 50%;
   height: 250px;
 }
