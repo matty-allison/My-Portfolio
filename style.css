@@ -16,7 +16,7 @@ body {
 :root {
   --primary-color: white;
   --secondary-color: black;
-  --shadow-color: rgba(109, 14, 14, 0.2);
+  --shadow-color: #6d0e0e33;
 }
 
 /* navbar */
