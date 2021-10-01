@@ -338,6 +338,13 @@ body {
     font-size: 30px;
   }
 }
+
+@media (max-width: 800px) {
+  .landing{
+    right: 17%;
+  }
+}
+
 @media (max-width: 750px) {
   .landingimg {
     width: 230px;
@@ -350,6 +357,13 @@ body {
     font-size: 25px;
   }
 }
+
+@media (max-width: 550px) {
+  .landing{
+    right: 7%;
+  }
+}
+
 @media (max-width: 500px) {
   .landing {
     font-size: 20px;
@@ -362,25 +376,48 @@ body {
     height: 200px;
   }
 }
+
+@media (max-width: 450px) {
+  .landing{
+    right: 3%;
+  }
+}
+
+@media (max-width: 415px) {
+  .landing{
+    right: 1%;
+  }
+}
+
 @media (max-width: 400px) {
   .landing {
     font-size: 16px;
+    right: 5%;
   }
 }
 @media (max-width: 360px) {
   .landing {
     font-size: 15px;
+    right: 1%;
   }
 }
 @media (max-width: 350px) {
   .landing {
     font-size: 16px;
     letter-spacing: 6px;
+    right: 3%;
   }
   .name {
     font-size: 22px;
   }
 }
+
+@media (max-width: 330px) {
+  .landing{
+    right: 1%;
+  }
+}
+
 @media (max-width: 320px) {
   .landing {
     font-size: 16px;
