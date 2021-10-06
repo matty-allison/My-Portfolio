@@ -59,6 +59,12 @@ body {
     0px 5px 20px var(--shadow-color);
 }
 
+@media (max-width: 1600px) {
+  .navbutton{
+    font-size: 80%;
+  }
+}
+
 @media (max-width: 1250px) {
   .navbutton {
     font-size: 110%;
@@ -311,6 +317,21 @@ body {
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color);
 }
+
+@media (max-width: 1600px) {
+  .landingimg {
+    width: 240px;
+    height: 240px;
+  }
+  .landing {
+    font-size: 25px;
+    right: 33%;
+  }
+  .name{
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 1300px) {
   .landingimg {
     width: 340px;
@@ -486,6 +507,22 @@ body {
   transition: ease-in 0.4s;
 }
 
+.homeArrow{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: var(--primary-color);
+  margin: 20px;
+  font-size: 30px;
+}
+
+@media (max-width: 800px) {
+  .homeArrow{
+    margin: 15px;
+    font-size: 25px;
+  }
+}
+
 @media (max-width: 750px) {
   .icons {
     font-size: 120%;
@@ -497,6 +534,9 @@ body {
   }
   #footerbar h2 {
     font-size: 130%;
+  }
+  .homeArrow{
+    display: none;
   }
 }
 @media (max-width: 300px) {
@@ -580,8 +620,26 @@ body {
   transition: 0.5s ease-in-out;
 }
 @media (max-width: 1600px) {
-  #about img {
-    display: none;
+  .aboutwords{
+    font-size: 80%;
+    margin-top: 15px;
+    gap: 30px;
+  }
+  #about{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+  }
+  #about img{
+    width: 35%;
+    height: 55%;
+  }
+  #about h2 {
+    font-size: 140%;
+  }
+  .downloadbtn{
+    padding: 10px 25px;
+    font-size: 15px;
   }
 }
 @media (max-width: 1400px) {
@@ -598,6 +656,9 @@ body {
 @media (max-width: 1250px) {
   #about {
     padding: 8% 10%;
+  }
+  #about img {
+    display: none;
   }
   .aboutwords {
     font-size: 100%;
@@ -1131,6 +1192,19 @@ body {
 .right {
   left: 50%;
 }
+
+@media (max-width: 1600px) {
+  #experience{
+    font-size: 90%;
+  }
+  #experience h2{
+    font-size: 140%;
+  }
+  .history-box{
+    margin: 30px 0;
+  }
+}
+
 @media (max-width: 1300px) {
   .history-box {
     width: 110%;
@@ -1321,21 +1395,27 @@ body {
 }
 @media (max-width: 1500px) {
   #Skills-education {
-    font-size: 18px;
+    font-size: 14px;
+    gap: 10px;
   }
-  .skills {
-    display: flex;
-    gap: 78px;
+  #Skills-education h2{
+    font-size: 140%;
+  }
+  .school{
+    gap: 17px;
+  }
+  .course{
+    gap: 17px;
   }
 }
 
 @media (max-width: 1400px) {
   .skills {
-    gap: 50px;
+    gap: 70px;
   }
   .circle {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
   }
   .school {
     padding: 0px 0px;
@@ -1624,7 +1704,13 @@ body {
     padding: 6%;
   }
   .cards-container {
-    margin: 0px 180px;
+    margin: 0px 140px;
+  }
+  #My-Projects h2 {
+    font-size: 140%;
+  }
+  .card{
+    height: 235px;
   }
 }
 @media (max-width: 1300px) {
@@ -1835,16 +1921,17 @@ body {
   #testimonial {
     margin-right: 16%;
     margin-left: 18%;
-    font-size: 110%;
+    font-size: 90%;
   }
   .testimonialimg {
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
   }
   .carousel .carouselcard {
     line-height: 25px;
     margin-right: 20px;
     padding: 20px;
+    font-size: 15px;
   }
 }
 @media (max-width: 1300px) {
@@ -1999,6 +2086,7 @@ body {
   display: flex;
   flex-direction: row;
   letter-spacing: 6px;
+  margin-top: 10px;
   justify-content: center;
   text-shadow: 0px 5px 20px var(--shadow-color),
     0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color),
@@ -2118,10 +2206,26 @@ body {
 @media (max-width: 1400px) {
   .contact-form-details {
     width: 350px;
+    gap: 15px;
+    padding: 30px;
+    height: 310px;
+  }
+  .contact-input{
+    font-size: 13px;
   }
   #contactme {
+    font-size: 90%;
     margin-left: 8%;
     margin-right: 8%;
+  }
+  .info{
+    gap: 22px;
+  }
+  .btn2 {
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 10px;
   }
 }
 @media (max-width: 1300px) {
