@@ -419,20 +419,5 @@
       });
     });
     </script>
-    <script>$('a[href^="#"]').on('click',function (e) {
-      e.preventDefault();
-      var target = this.hash,
-      $target = $(target);
-      $('html, body').stop().animate({
-          'scrollTop': $target.offset().top
-      }, 700, 'swing', function () {
-          window.location.hash = target;
-      });
-  });</script>
-  <!-- <script>
-    $(window).on("load",function(){
-      $(".loader-wrapper").fadeOut("slow");
-    });
-</script> -->
 </body>
 </html>
