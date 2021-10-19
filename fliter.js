@@ -132,6 +132,33 @@ function flitering(catergory) {
   }
 }
 
+// navBar functions
+const sections = document.querySelectorAll("section[id]")
+
+console.log(sections);
+
+const highlighter = () => {
+  let scrollY = window.pageYOffset
+  console.log(scrollY);
+
+  sections.forEach((current) => {
+    const sectionHeight = current.offsetHeight
+    console.log(sectionHeight);
+    const sectionTop = current.offsetTop - 50
+    console.log(sectionTop);
+    const sectionId = current.getAttribute("id")
+    console.log(sectionId);
+
+    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+      document.querySelector(`.navbar a[href*=${sectionId}]`).classList.add("active");
+    }   else{
+      document.querySelector(`.navbar a[href*=${sectionId}]`).classList.remove("active");
+    }
+  })
+}
+
+window.addEventListener("scroll", highlighter)
+
 // let hobbies = [
 //   {
 //     pic: "./Images/games.jpg",
