@@ -257,10 +257,20 @@ body {
 }
 @media (max-width: 360px) {
   .navbutton {
-    margin: 2px;
+    margin: 4px;
     padding: 2px 5px 2px 5px;
     font-size: 46%;
     border: 1px solid var(--primary-color);
+  }
+}
+@media (max-width: 330px) {
+  .navbutton {
+    margin: 3px;
+  }
+}
+@media (max-width: 320px) {
+  .navbutton {
+    margin: 2px;
   }
 }
 @media (max-width: 310px) {
@@ -350,63 +360,76 @@ body {
 
 @media (max-width: 1300px) {
   .landingimg {
-    width: 340px;
-    height: 340px;
+    width: 220px;
+    height: 220px;
+  }
+  .landing{
+    right: 32%;
   }
 }
 
 @media (max-width: 1250px) {
   .landing {
-    font-size: 35px;
+    font-size: 25px;
+    right: 31%;
   }
 
   .name {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 1150px) {
   .landingimg {
-    width: 270px;
-    height: 270px;
+    width: 200px;
+    height: 200px;
   }
 
   .landing {
-    font-size: 30px;
+    font-size: 23px;
+    right: 30%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .landing {
+    right: 28%;
   }
 }
 
 @media (max-width: 800px) {
   .landing{
-    right: 17%;
+    right: 22%;
   }
 }
 
 @media (max-width: 750px) {
-  .landingimg {
-    width: 230px;
-    height: 230px;
-  }
   .name {
-    font-size: 30px;
+    font-size: 28px;
   }
   .landing {
-    font-size: 25px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .landing {
+    right: 19%;
   }
 }
 
 @media (max-width: 550px) {
   .landing{
-    right: 7%;
+    right: 13%;
   }
 }
 
 @media (max-width: 500px) {
   .landing {
-    font-size: 20px;
+    font-size: 16px;
   }
   .name {
-    font-size: 25px;
+    font-size: 20px;
   }
   .landingimg {
     width: 200px;
@@ -416,26 +439,33 @@ body {
 
 @media (max-width: 450px) {
   .landing{
-    right: 3%;
+    right: 9%;
   }
 }
 
 @media (max-width: 415px) {
   .landing{
-    right: 1%;
+    right: 6%;
   }
 }
 
 @media (max-width: 400px) {
   .landing {
-    font-size: 16px;
-    right: 5%;
+    font-size: 14px;
   }
 }
 @media (max-width: 360px) {
   .landing {
     font-size: 15px;
-    right: 1%;
+    right: 7%;
+    letter-spacing: 6px;
+  }
+  .name{
+    letter-spacing: 5px;
+  }
+  .landingimg{
+    height: 180px;
+    width: 180px;
   }
 }
 @media (max-width: 350px) {
@@ -471,7 +501,7 @@ body {
   }
   .landing {
     font-size: 14px;
-    letter-spacing: 5px;
+    right: 4%;
   }
 }
 /* Footer */
