@@ -86,14 +86,14 @@ let projects = [
     liveLink: "https://sneakeromatic.netlify.app/",
     githubLink: "https://github.com/matty-allison/Frontend-Final_project"
   },
-  {
-    projectImg: "blog-post.png",
-    nameHead: "Blogger web-app",
-    Description: "Fullstack blog post web-application, post what you love.",
-    language: "Javascript",
-    liveLink: "https://blog-site-5288a.web.app/",
-    githubLink: "https://github.com/TashwillAndries/Bloggers/tree/matthew-commit"
-  }
+//   {
+//     projectImg: "blog-post.png",
+//     nameHead: "Blogger web-app",
+//     Description: "Fullstack blog post web-application, post what you love.",
+//     language: "Javascript",
+//     liveLink: "https://blog-site-5288a.web.app/",
+//     githubLink: "https://github.com/TashwillAndries/Bloggers/tree/matthew-commit"
+//   }
 ];
 
 function createProject(project) {
