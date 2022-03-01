@@ -258,6 +258,13 @@ body {
     font-size: 46%;
     border: 1px solid var(--primary-color);
   }
+
+  .navbutton.active {
+    box-shadow: -2px 3px 0px var(--shadow-color);
+  }
+  .navbutton:hover {
+    box-shadow: -2px 3px 0px var(--shadow-color);
+  }
 }
 @media (max-width: 330px) {
   .navbutton {
@@ -453,6 +460,11 @@ body {
   }
   .name{
     letter-spacing: 5px;
+    text-shadow: -2px 3px 0px var(--shadow-color);
+  }
+
+  .landing span {
+    text-shadow: -2px 3px 0px var(--shadow-color);
   }
   .landingimg{
     height: 180px;
@@ -1311,6 +1323,9 @@ body {
   .history-box {
     padding: 7px 10px;
   }
+  #experience h2 {
+    text-shadow: -2px 3px 0px var(--shadow-color);
+  }
 }
 /* Skills and education */
 #Skills-education {
@@ -1597,6 +1612,12 @@ body {
   .educationwords {
     width: 90%;
 }
+.circle:hover {
+  box-shadow: -3px 4px 0px var(--shadow-color);
+}
+#Skills-education h2 {
+  text-shadow: -2px 3px 0px var(--shadow-color);
+}
 }
 @media (max-width: 300px) {
   #Skills-education h2 {
@@ -1842,6 +1863,15 @@ body {
   .card {
     height: 220px;
   }
+  .projecthead {
+    text-shadow: -2px 3px 0px var(--shadow-color);
+  }
+  .fliter-btn:hover {
+    box-shadow: -2px 3px 0px var(--shadow-color);
+  }
+  .button2:hover {
+    box-shadow: -2px 3px 0px var(--shadow-color);
+  }
 }
 @media (max-width: 350px) {
   .card {
@@ -2079,6 +2109,9 @@ body {
   }
   #testimonial {
     font-size: 70%;
+  }
+  #testimonial h2 {
+    text-shadow: -2px 3px 0px var(--shadow-color);
   }
 }
 /* Contact me */
@@ -2420,6 +2453,9 @@ body {
   #contactme {
     font-size: 45%;
   }
+  .headcontactword {
+    text-shadow: -2px 3px 0px var(--shadow-color);
+  }
 }
 @media (max-width: 350px) {
   #contactme {
@@ -2491,7 +2527,13 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  text-shadow: 0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color), 0px 5px 20px var(--shadow-color);
+  text-shadow: -5px 6px 0px var(--shadow-color);
+}
+
+@media (max-width: 400px) {
+  .loader {
+    text-shadow: -2px 3px 0px var(--shadow-color);
+  }
 }
 
 .loader.hidden {
