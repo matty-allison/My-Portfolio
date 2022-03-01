@@ -84,7 +84,7 @@ let projects = [
     Description: "Fullstack E-commerce shoe store",
     language: "Javascript",
     liveLink: "https://sneakeromatic.netlify.app/",
-    githubLink: "https://github.com/matty-allison/Frontend-Final_project"
+    githubLink: "https://github.com/matty-allison/Frontend-Final_project",
   },
   // {
   //   projectImg: "blog-post.png",
@@ -141,24 +141,28 @@ function flitering(catergory) {
 }
 
 // navBar functions
-const sections = document.querySelectorAll("section[id]")
+const sections = document.querySelectorAll("section[id]");
 const highlighter = () => {
-  let scrollY = window.pageYOffset
+  let scrollY = window.pageYOffset;
 
   sections.forEach((current) => {
-    const sectionHeight = current.offsetHeight
-    const sectionTop = current.offsetTop - 50
-    const sectionId = current.getAttribute("id")
+    const sectionHeight = current.offsetHeight;
+    const sectionTop = current.offsetTop - 50;
+    const sectionId = current.getAttribute("id");
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-      document.querySelector(`.navbar a[href*=${sectionId}]`).classList.add("active");
-    }   else{
-      document.querySelector(`.navbar a[href*=${sectionId}]`).classList.remove("active");
+      document
+        .querySelector(`.navbar a[href*=${sectionId}]`)
+        .classList.add("active");
+    } else {
+      document
+        .querySelector(`.navbar a[href*=${sectionId}]`)
+        .classList.remove("active");
     }
-  })
-}
+  });
+};
 
-window.addEventListener("scroll", highlighter)
+window.addEventListener("scroll", highlighter);
 
 // let hobbies = [
 //   {
@@ -210,3 +214,9 @@ window.addEventListener("scroll", highlighter)
 // }
 
 // displayHobbies();
+
+// Loader
+window.addEventListener("load", function () {
+  const loader = this.document.querySelector(".loader");
+  loader.className += " hidden";
+});
